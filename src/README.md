@@ -30,7 +30,7 @@ projects:
 
   - icon: friend
     name: 沐沐
-    desc: 伙伴详细介绍
+    desc: 伙伴详细介绍沐沐
     link: https://你的伙伴链接
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
