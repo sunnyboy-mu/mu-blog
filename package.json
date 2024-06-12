@@ -10,7 +10,7 @@
     "dev": "vuepress-vite dev src",
     "build": "vuepress-vite build src",
     "update-package": "pnpm dlx vp-update",
-    "commit": "git pull && git add . && git cz"
+    "commit": "git pull && git add . && git cz && git push"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
