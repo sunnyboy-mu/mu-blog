@@ -1,0 +1,19 @@
+{
+  "name": "mu-blog",
+  "version": "0.0.1",
+  "description": "小沐沐吖的全栈之路",
+  "license": "Apache 2.0",
+  "type": "module",
+  "scripts": {
+    "clean-dev": "vuepress-vite dev src --clean-cache",
+    "dev": "vuepress-vite dev src",
+    "build": "vuepress-vite build src",
+    "update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.13",
+    "vue": "^3.4.27",
+    "vuepress": "2.0.0-rc.13",
+    "vuepress-theme-hope": "2.0.0-rc.48"
+  }
+}
