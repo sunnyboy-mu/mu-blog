@@ -14,7 +14,7 @@ projects:
     link: https://你的项目链接
 
   - icon: link
-    name: 链接名称
+    name: 沐沐
     desc: 链接详细描述
     link: https://链接地址
 
