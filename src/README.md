@@ -24,7 +24,7 @@ projects:
     link: https://你的书籍链接
 
   - icon: article
-    name: 文章名称
+    name: 沐沐
     desc: 文章详细描述
     link: https://你的文章链接
 
