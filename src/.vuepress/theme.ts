@@ -8,7 +8,7 @@ import pluginsConfig from "./config/plugins.js";
 
 export default hopeTheme(
   {
-    hostname: "https://mister-hope.github.io",
+    hostname: "https://blog.mu00.cn",
 
     author: {
       name: "小沐沐吖",
@@ -19,7 +19,9 @@ export default hopeTheme(
 
     logo: "/logo.png",
 
-    repo: "vuepress-theme-hope/vuepress-theme-hope",
+    editLink: false,
+
+    repo: "sunnyboy-mu",
 
     docsDir: "src",
 

@@ -1,12 +1,14 @@
 import { type PluginsOptions } from "vuepress-theme-hope";
-import {
-  canvasPlugin,
-  CanvasPluginType,
-} from "../plugins/vuepress-plugin-canvas";
-import { gradientCoverPlugin } from "../plugins/vuepress-plugin-gradient-cover";
 
 export default {
-  blog: true,
+  blog: {
+    // 只有在posts文件夹下的md文件才会被识别为文章
+    filter: ({ frontmatter, filePathRelative }) =>
+      frontmatter.article ??
+      (Boolean(filePathRelative) &&
+        !frontmatter.home &&
+        filePathRelative.startsWith("posts")),
+  },
 
   components: {
     components: ["Badge", "VPCard"],

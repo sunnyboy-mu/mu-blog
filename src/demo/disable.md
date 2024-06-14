@@ -1,7 +1,6 @@
 ---
 title: 布局与功能禁用
 icon: gears
-article: false
 order: 4
 category:
   - 使用指南
