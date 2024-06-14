@@ -7,8 +7,8 @@ export default hopeTheme(
     hostname: "https://mister-hope.github.io",
 
     author: {
-      name: "Mr.Hope",
-      url: "https://mister-hope.com",
+      name: "小沐沐吖",
+      url: "https://blog.mu00.cn",
     },
 
     iconAssets: "fontawesome-with-brands",
@@ -31,44 +31,13 @@ export default hopeTheme(
 
     // 博客相关
     blog: {
-      description: "一个前端开发者",
+      description: "困住我青春的人，始终没有回头看我一眼(っ˘зʕ•̫͡•ʔ",
       intro: "/intro.html",
       medias: {
-        Baidu: "https://example.com",
         BiliBili: "https://example.com",
-        Bitbucket: "https://example.com",
-        Dingding: "https://example.com",
-        Discord: "https://example.com",
-        Dribbble: "https://example.com",
-        Email: "mailto:info@example.com",
-        Evernote: "https://example.com",
-        Facebook: "https://example.com",
-        Flipboard: "https://example.com",
-        Gitee: "https://example.com",
-        GitHub: "https://example.com",
-        Gitlab: "https://example.com",
-        Gmail: "mailto:info@example.com",
-        Instagram: "https://example.com",
-        Lark: "https://example.com",
-        Lines: "https://example.com",
-        Linkedin: "https://example.com",
-        Pinterest: "https://example.com",
-        Pocket: "https://example.com",
-        QQ: "https://example.com",
-        Qzone: "https://example.com",
-        Reddit: "https://example.com",
-        Rss: "https://example.com",
-        Steam: "https://example.com",
-        Twitter: "https://example.com",
-        Wechat: "https://example.com",
-        Weibo: "https://example.com",
-        Whatsapp: "https://example.com",
-        Youtube: "https://example.com",
-        Zhihu: "https://example.com",
-        VuePressThemeHope: {
-          icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-          link: "https://theme-hope.vuejs.press",
-        },
+        Email: "sunnyboy_mu@163.com",
+        Gitee: "https://gitee.com/SunnyBoy_mu",
+        GitHub: "https://github.com/sunnyboy-mu",
       },
     },
 
@@ -77,11 +46,6 @@ export default hopeTheme(
       config: {
         "/demo/encrypt.html": ["1234"],
       },
-    },
-
-    // 多语言配置
-    metaLocales: {
-      editLink: "在 GitHub 上编辑此页",
     },
 
     // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
