@@ -244,3 +244,11 @@ div[class*="language-"].line-numbers-mode pre {
 tr:nth-child(odd) {
   background: transparent;
 }
+
+.vp-navbar .vp-dropdown-title .arrow {
+  vertical-align: sub;
+}
+
+.vp-navbar .vp-nav-item > .auto-link::after {
+  position: static;
+}

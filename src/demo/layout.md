@@ -1,6 +1,7 @@
 ---
 title: 布局
 icon: object-group
+article: false
 order: 2
 category:
   - 指南
