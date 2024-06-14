@@ -2,6 +2,11 @@ import { getDirname, path } from "vuepress/utils";
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 const __dirname = getDirname(import.meta.url);
+import {
+  canvasPlugin,
+  CanvasPluginType,
+} from "./plugins/vuepress-plugin-canvas";
+import { gradientCoverPlugin } from "./plugins/vuepress-plugin-gradient-cover";
 
 export default defineUserConfig({
   base: "/",
@@ -18,6 +23,24 @@ export default defineUserConfig({
   },
 
   theme,
+
+  plugins: [
+    // 背景插件
+    canvasPlugin({
+      type: CanvasPluginType.Figure,
+      ribbonOption: {
+        zIndex: 1,
+        alpha: 0.8,
+        size: 90,
+      },
+    }),
+    // 遮罩插件
+    gradientCoverPlugin({
+      zIndex: 0,
+      alpha: 0.1,
+      size: 90,
+    }),
+  ],
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
