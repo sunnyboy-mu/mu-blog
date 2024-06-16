@@ -1,26 +1,159 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/": [
-    "",
+  "/front-end/": [
     {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
+      text: "CSS小知识",
+      icon: "icon-css",
+      link: "css",
     },
     {
-      text: "文章",
-      icon: "book",
-      prefix: "posts/",
-      children: "structure",
+      text: "JS小知识",
+      icon: "icon-file_file_javascript",
+      link: "JavaScript",
     },
-    "intro",
     {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
+      text: "JS工具库",
+      icon: "icon-icon_gongju",
+      link: "js-utils",
+    },
+    {
+      text: "Vue",
+      icon: "icon-Vue",
+      link: "vue",
+    },
+    {
+      text: "Vue-Hooks",
+      icon: "icon-webhooks",
+      link: "vue3-hooks",
+    },
+    {
+      text: "Vite",
+      icon: "icon-vitejs",
+      link: "vite",
+    },
+    {
+      text: "微信小程序",
+      icon: "icon-xiaochengxu1",
+      link: "miniprogram",
+    },
+    {
+      text: "Uni-app",
+      icon: "icon-uniapp1",
+      link: "uni-app",
+    },
+    {
+      text: "Element-ui",
+      icon: "icon-ElementUI",
+      link: "element-ui",
+    },
+    {
+      text: "Element-Plus",
+      icon: "icon-element-plus",
+      link: "element-plus",
+    },
+    {
+      text: "Node",
+      icon: "icon-Nodejs1",
+      link: "node",
+    },
+    {
+      text: "UI组件库",
+      icon: "icon-ui",
+      link: "ui-com-lib",
+    },
+    {
+      text: "插件",
+      icon: "icon-chajiancanshushuju",
+      link: "plugins",
+    },
+    {
+      text: "数据可视化",
+      icon: "icon-shujukeshihua",
+      link: "dlv",
+    },
+    {
+      text: "生态",
+      icon: "icon-shengtaigongxiang",
+      link: "ecology",
+    },
+    {
+      text: "项目模板",
+      icon: "icon-moban",
+      link: "pro-template",
+    },
+  ],
+  "/back-end/": [
+    {
+      text: "Java",
+      icon: "icon-java",
+      collapsible: true,
+      prefix: "java/",
+      children: [
+        {
+          text: "BigDecimal",
+          icon: "icon-a--javamathBigDecimal",
+          link: "BigDecimal",
+        },
+        {
+          text: "SpringBoot",
+          icon: "icon-SPRINGBOOT",
+          link: "springboot",
+        },
+      ],
+    },
+  ],
+  "/operations/": [
+    {
+      text: "Nginx",
+      icon: "icon-nginx",
+      link: "nginx",
+    },
+    {
+      text: "Git",
+      icon: "icon-git",
+      link: "git",
+    },
+    {
+      text: "ZSH",
+      icon: "icon-cmd",
+      link: "zsh",
+    },
+  ],
+  "/ide/": [
+    {
+      text: "VsCode",
+      icon: "icon-vscode",
+      link: "VsCode",
+    },
+  ],
+  "/bookmark/": [
+    {
+      text: "开发生态",
+      icon: "icon-yingyong",
+      link: "development",
+    },
+    {
+      text: "在线工具",
+      icon: "icon-yingyong",
+      link: "tool",
+    },
+    {
+      text: "系统维护",
+      icon: "icon-yingyong",
+      link: "system",
+    },
+    {
+      text: "应用推荐",
+      icon: "icon-yingyong",
+      link: "application",
+    },
+  ],
+  "/personal-essay/": [
+    {
+      text: "书单墙",
+      icon: "icon-keCheng",
+      link: "Book-List",
     },
   ],
 });

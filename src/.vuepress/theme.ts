@@ -15,7 +15,8 @@ export default hopeTheme(
       url: "https://blog.mu00.cn",
     },
 
-    iconAssets: "fontawesome-with-brands",
+    iconPrefix: "iconfont ",
+    iconAssets: "//at.alicdn.com/t/c/font_4571358_yf3bod7d2hh.css",
 
     logo: "/logo.png",
 
