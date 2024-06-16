@@ -1,6 +1,6 @@
 version: "1.0"
-name: pipeline-20240616
-displayName: pipeline-20240616
+name: pipeline-20240616182700
+displayName: pipeline-20240616182700
 triggers:
   trigger: auto
   push:
@@ -27,7 +27,7 @@ stages:
           - npm i -g pnpm
           - pnpm config set registry https://registry.npmmirror.com
           - "# 执行编译命令"
-          - pnpm install && pnpm run docs:build
+          - pnpm install && pnpm run build
         artifacts:
           - name: BUILD_ARTIFACT
             path:
