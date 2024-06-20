@@ -13,7 +13,7 @@ export default {
   },
 
   components: {
-    components: ["Badge", "VPCard"],
+    components: ["Badge", "VPCard", "SiteInfo"],
   },
 
   searchPro: {
