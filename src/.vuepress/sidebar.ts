@@ -151,7 +151,7 @@ export default sidebar({
   ],
   "/personal-essay/": [
     {
-      text: "书单墙",
+      text: "沐沐书屋",
       icon: "icon-keCheng",
       link: "Book-List",
     },

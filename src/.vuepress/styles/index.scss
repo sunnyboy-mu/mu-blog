@@ -1,12 +1,10 @@
 // place your custom styles here
 @use "@sass-palette/hope-config";
-
+@import "./custom.scss";
 @font-face {
   font-family: "PRshouxie";
-  src: url("https://cdn.jsdelivr.net/gh/oragekk/blog-assets/font/8d6a7466947745f9f211cd17e0ed5dc3.woff2")
-      format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/oragekk/blog-assets/font/8d6a7466947745f9f211cd17e0ed5dc3.woff")
-      format("woff");
+  src: url("/assets/font/002.woff2") format("woff2"),
+    url("/assets/font/001.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -14,8 +12,7 @@
 
 @font-face {
   font-family: "ZWZT";
-  src: url("https://cdn.jsdelivr.net/gh/ZhongZN/ZFonts/13.woff2")
-    format("woff2");
+  src: url("/assets/font/003.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -41,6 +38,7 @@
 }
 
 .theme-container .vp-sidebar {
+  z-index: 4;
   transition: 0.3s;
   top: var(--navbar-height);
   @media (min-width: hope-config.$pad) {
@@ -48,6 +46,7 @@
     background-color: transparent;
   }
 }
+
 // .hide-navbar {
 //   .sidebar {
 //     top: 0;

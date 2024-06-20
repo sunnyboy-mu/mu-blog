@@ -1,0 +1,47 @@
+.mu-card {
+  --mu-card-item-num: 3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 媒体自适应 */
+
+/* 小于 768px 《===》xs */
+@media only screen and (max-width: 767px) {
+  /* 在这里编写小于 768px 时应用的 CSS */
+  .mu-card {
+    --mu-card-item-num: 1;
+  }
+}
+
+/* 大于等于 768px 《===》sm */
+@media only screen and (min-width: 768px) {
+  /* 在这里编写大于等于 768px 时应用的 CSS */
+  .mu-card {
+    --mu-card-item-num: 2;
+  }
+}
+
+/* 大于等于 992px 《===》md */
+@media only screen and (min-width: 992px) {
+  /* 在这里编写大于等于 992px 时应用的 CSS */
+  .mu-card {
+    --mu-card-item-num: 2;
+  }
+}
+
+/* 大于等于 1200px 《===》lg */
+@media only screen and (min-width: 1200px) {
+  /* 在这里编写大于等于 1200px 时应用的 CSS */
+  .mu-card {
+    --mu-card-item-num: 3;
+  }
+}
+
+/* 大于等于 1920px 《===》xl */
+@media only screen and (min-width: 1920px) {
+  /* 在这里编写大于等于 1920px 时应用的 CSS */
+  .mu-card {
+    --mu-card-item-num: 3;
+  }
+}
