@@ -50,68 +50,7 @@ const iconName = ref("Plus");
 </script>
 ```
 
-## 2、ElSlect 最大递归更新数错误
-
-### 1. 错误描述
-
-1.  `el-select`组件使用`filterable`搜索功能
-2.  数据量过大时引起报错`Maximum recursive updates exceeded in component <ElSelect>`
-3.  翻译：组件`<ElSelect>`中超过了最大递归更新数
-4.  可能不止此组件触发这个错误...
-
----
-
-报错详情信息：
-
-```bash
-Maximum recursive updates exceeded in component <ElSelect>.
-This means you have a reactive effect that is mutating its own dependencies and thus recursively triggering itself.
-Possible sources include component template, render function, updated hook or watcher source function.
-```
-
-**官方`issues`**：https://github.com/element-plus/element-plus/issues/15323
-
-### 2. 解决方案
-
-**使用属性`filter-method`实现自定义搜索逻辑**
-
-代码示例：
-
-```vue
-<template>
-  <el-select
-    v-model="gitlabUrl"
-    placeholder="请选择 GitlabUrl"
-    filterable
-    :filter-method="handleFilter"
-  >
-    <el-option
-      v-for="item in listData"
-      :key="item.id"
-      :value="item.value"
-      :label="item.label"
-    ></el-option>
-  </el-select>
-</template>
-<script setup>
-import { ref } from "vue";
-
-let listSourceData = [{ id: 1, label: "小明", value: "小明" }];
-const listData = ref([{ id: 1, label: "小明", value: "小明" }]);
-
-/**
- * 处理过滤
- * @param {any} val
- */
-function handleFilter(val) {
-  listData.value = listSourceData.filter((item) => item.label.includes(val));
-}
-</script>
-```
-
-**期待官方修复…(⊙_⊙;)…**
-
-## 3、ElTable 数据导出为图像
+## 2、ElTable 数据导出为图像
 
 ### 1. 实现方案
 
@@ -215,7 +154,7 @@ import { elTableExportToImage } from "xxxx";
 </script>
 ```
 
-## 4、 ElTable 行合并
+## 3、 ElTable 行合并
 
 ### 1. 具体实现
 

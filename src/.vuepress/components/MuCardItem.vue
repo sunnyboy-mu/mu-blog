@@ -82,22 +82,21 @@ const { pic, title, author, desc, link } = defineProps({
       border: 1px solid rgba(255, 255, 255, 0.5);
       background-color: rgba(0, 0, 0, 0.5);
       color: #fff;
-      font-size: 18px;
+      font-size: 12px;
       text-align: center;
       padding: 8px;
       border-radius: 8px;
       box-sizing: border-box;
     }
     .author {
-      margin-top: 28px;
+      margin: 5px 0;
       color: #000;
     }
     .desc {
       text-align: left;
       text-indent: 2em;
-      margin-top: 20px;
       color: #333;
-      font-size: 16px;
+      font-size: 12px;
       line-height: 24px;
       overflow: hidden;
       text-overflow: ellipsis;

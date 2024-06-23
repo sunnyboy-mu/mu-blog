@@ -61,7 +61,7 @@ npm config set registry https://registry.npmmirror.com
 
 ## 3、前端工程化
 
-::: tip **前端开发的管理工具**（降低开发成本，提升开发效率）
+::: tip 前端开发的管理工具（降低开发成本，提升开发效率）
 
 :::
 
