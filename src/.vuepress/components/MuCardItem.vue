@@ -1,5 +1,5 @@
 <template>
-  <a class="mu-card-item" :href="link">
+  <a class="mu-card-item" target="_blank" :href="link">
     <div class="front">
       <img :src="pic" />
     </div>
@@ -37,7 +37,7 @@ const { pic, title, author, desc, link } = defineProps({
   width: var(--mu-card-item-width);
   aspect-ratio: 2 / 3;
   margin: 15px;
-  border-radius: 20px;
+  border-radius: 5px;
   overflow: hidden;
   display: flex;
   flex-direction: column;

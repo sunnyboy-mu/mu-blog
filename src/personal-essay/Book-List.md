@@ -10,6 +10,11 @@ bookListBy2024:
     author: 筱泓
     pic: /assets/book/zzjdxlys.png
     desc: 每个人都是自己的心理医生；认识自我、激发内心深处的自愈力；让貌似正常心有小恙的人自愈并改变。
+  - title: 笔记的方法
+    author: 刘少楠
+    pic: /assets/book/bjdff.png
+    desc: 让你的笔记记得好、找得到、用得上
+    link: https://book.douban.com/subject/36615020/
 ---
 
 # 沐沐书屋
