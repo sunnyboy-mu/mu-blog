@@ -27,7 +27,7 @@ const { pic, title, author, desc, link } = defineProps({
 });
 
 const target = computed(() => {
-  return link === "javascript:void(0);" ? "_blank" : "_self";
+  return link === "javascript:void(0);" ? "_self" : "_blank";
 });
 </script>
 
@@ -52,6 +52,9 @@ const target = computed(() => {
   flex-shrink: 0;
   cursor: pointer;
   position: relative;
+  &::after {
+    display: none !important;
+  }
   img {
     width: 100%;
     height: 100%;
