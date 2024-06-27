@@ -1,16 +1,18 @@
 <template>
-  <a class="mu-card-item" :target="target" :href="link">
-    <div class="front">
-      <img :src="pic" />
-    </div>
-    <div class="back">
-      <p class="title">{{ title }}</p>
-      <p class="author">{{ author }}(著)</p>
-      <p class="desc">
-        {{ desc }}
-      </p>
-    </div>
-  </a>
+  <ClientOnly>
+    <a class="mu-card-item" :target="target" :href="link">
+      <div class="front">
+        <img :src="pic" />
+      </div>
+      <div class="back">
+        <p class="title">{{ title }}</p>
+        <p class="author">{{ author }}(著)</p>
+        <p class="desc">
+          {{ desc }}
+        </p>
+      </div>
+    </a>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
