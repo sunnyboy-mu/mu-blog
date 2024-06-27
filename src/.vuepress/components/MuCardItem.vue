@@ -1,5 +1,5 @@
 <template>
-  <a class="mu-card-item" target="_blank" :href="link">
+  <a class="mu-card-item" :target="link ? '_blank' : '_self'" :href="link">
     <div class="front">
       <img :src="pic" />
     </div>
