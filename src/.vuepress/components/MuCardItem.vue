@@ -1,5 +1,5 @@
 <template>
-  <a class="mu-card-item" :target="link ? '_blank' : '_self'" :href="link">
+  <a class="mu-card-item" :target="target" :href="link">
     <div class="front">
       <img :src="pic" />
     </div>
@@ -14,6 +14,7 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from "vue";
 const { pic, title, author, desc, link } = defineProps({
   title: String,
   author: String,
@@ -23,6 +24,10 @@ const { pic, title, author, desc, link } = defineProps({
     type: String,
     default: "javascript:void(0);",
   },
+});
+
+const target = computed(() => {
+  return link === "javascript:void(0);" ? "_blank" : "_self";
 });
 </script>
 
@@ -64,8 +69,6 @@ const { pic, title, author, desc, link } = defineProps({
     top: 0;
     backface-visibility: hidden;
     transition: all 1s;
-  }
-  .front {
   }
   .back {
     box-sizing: border-box;
