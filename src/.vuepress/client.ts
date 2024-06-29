@@ -2,11 +2,11 @@ import { defineClientConfig } from "vuepress/client";
 import { onMounted } from "vue";
 import "vuepress-theme-hope/presets/bounce-icon.scss";
 import packageJson from "../../package.json";
-import MuCardItem from "./components/MuCardItem.vue";
+import BookItem from "./components/BookItem.vue";
 
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
-    app.component("MuCardItem", MuCardItem);
+    app.component("BookItem", BookItem);
   },
   setup: () => {
     onMounted(() => {

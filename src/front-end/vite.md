@@ -72,7 +72,7 @@ export default defineConfig({
 
 ---
 
-增强语法提示: [项目环境配置](/views/ide/VsCode#_4、项目环境配置)
+增强语法提示: [项目环境配置](/ide/VsCode#_4、项目环境配置)
 
 ## 4、配置地址和端口
 

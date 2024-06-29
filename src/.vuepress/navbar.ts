@@ -66,11 +66,6 @@ export default navbar([
         icon: "icon-SVG",
         link: "https://chat.mu00.cn/",
       },
-      {
-        text: "Cloud Studio",
-        icon: "icon-webhooks",
-        link: "https://ide.cloud.tencent.com/dashboard/workspace",
-      },
     ],
   },
 ]);

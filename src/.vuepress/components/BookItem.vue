@@ -1,6 +1,6 @@
 <template>
   <ClientOnly>
-    <a class="mu-card-item" :target="target" :href="link">
+    <a class="mu-book-item" :target="target" :href="link">
       <div class="front">
         <img :src="pic" no-view />
       </div>
@@ -34,14 +34,14 @@ const target = computed(() => {
 </script>
 
 <style lang="scss" scoped>
-.mu-card-item {
+.mu-book-item {
   font-family: "ZWZT";
   /* 相对定位 */
   position: relative;
-  --mu-card-item-width: calc(
-    calc(100% - var(--mu-card-item-num) * 2 * 15px) / var(--mu-card-item-num)
+  --mu-book-item-width: calc(
+    calc(100% - var(--mu-book-item-num) * 2 * 15px) / var(--mu-book-item-num)
   );
-  width: var(--mu-card-item-width);
+  width: var(--mu-book-item-width);
   aspect-ratio: 2 / 3;
   margin: 15px;
   border-radius: 5px;
@@ -84,8 +84,8 @@ const target = computed(() => {
     transform: rotateY(180deg);
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    background: url("/assets/book/paper.png") center center / 100% 100%
-      no-repeat;
+    background: url("https://upyun-oss.mu00.cn/202406291654171.png") center
+      center / 100% 100% no-repeat;
     .title {
       border: 1px solid rgba(255, 255, 255, 0.5);
       background-color: rgba(0, 0, 0, 0.5);

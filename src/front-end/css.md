@@ -45,20 +45,9 @@ body {
 }
 ```
 
-### 1.3 滚动行为
-
-当用户手动导航或者 CSSOM scrolling API 触发滚动操作时，`scroll-behavior`为一个滚动框指定滚动行为，其他任何的滚动
-
-```css
-* {
-  scroll-behavior: smooth;
-  /* smooth - 平稳的滚动；auto - 立即滚动  */
-}
-```
-
 常用于纯`HTML`、`CSS`实现**_回到顶部_**平滑滚动效果
 
-### 1.4 宽高
+### 1.3 宽高
 
 1.  内容适应宽度
 

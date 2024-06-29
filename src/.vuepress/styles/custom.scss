@@ -1,5 +1,5 @@
 .mu-card {
-  --mu-card-item-num: 4;
+  --mu-book-item-num: 4;
   display: flex;
   flex-wrap: wrap;
 }
@@ -10,7 +10,7 @@
 @media only screen and (max-width: 767px) {
   /* 在这里编写小于 768px 时应用的 CSS */
   .mu-card {
-    --mu-card-item-num: 1;
+    --mu-book-item-num: 1;
   }
 }
 
@@ -18,7 +18,7 @@
 @media only screen and (min-width: 768px) {
   /* 在这里编写大于等于 768px 时应用的 CSS */
   .mu-card {
-    --mu-card-item-num: 2;
+    --mu-book-item-num: 2;
   }
 }
 
@@ -26,7 +26,7 @@
 @media only screen and (min-width: 992px) {
   /* 在这里编写大于等于 992px 时应用的 CSS */
   .mu-card {
-    --mu-card-item-num: 3;
+    --mu-book-item-num: 3;
   }
 }
 
@@ -34,7 +34,7 @@
 @media only screen and (min-width: 1200px) {
   /* 在这里编写大于等于 1200px 时应用的 CSS */
   .mu-card {
-    --mu-card-item-num: 4;
+    --mu-book-item-num: 4;
   }
 }
 
@@ -42,6 +42,6 @@
 @media only screen and (min-width: 1920px) {
   /* 在这里编写大于等于 1920px 时应用的 CSS */
   .mu-card {
-    --mu-card-item-num: 4;
+    --mu-book-item-num: 4;
   }
 }

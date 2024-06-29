@@ -96,4 +96,4 @@ export function useDefer(maxCount = 100) {
 }
 ```
 
-> 食用文档与说明，请移步[使用 defer 优化白屏时间](/views/front-end/vue.html#_4、使用defer优化白屏时间)
+> 食用文档与说明，请移步[使用 defer 优化白屏时间](/front-end/vue.html#_4、使用defer优化白屏时间)
