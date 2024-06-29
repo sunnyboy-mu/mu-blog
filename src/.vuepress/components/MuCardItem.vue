@@ -2,7 +2,7 @@
   <ClientOnly>
     <a class="mu-card-item" :target="target" :href="link">
       <div class="front">
-        <img :src="pic" />
+        <img :src="pic" no-view />
       </div>
       <div class="back">
         <p class="title">{{ title }}</p>
