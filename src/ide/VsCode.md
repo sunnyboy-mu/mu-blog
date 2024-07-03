@@ -378,3 +378,54 @@ set-ExecutionPolicy RemoteSigned
 ```
 
 4.  输入`Y`，回车；关闭窗口，重启 VsCode
+
+## 6、在 VsCode 中代码调试
+
+> 演示
+
+![image-20240703144800408](https://upyun-oss.mu00.cn/202407031452884.gif)
+
+### ✨1、添加配置
+
+1. 在`.vscode`目录下新建`launch,json`文件
+2. 添加如下配置
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "dev",
+      "url": "http://localhost:5173", // Replace with your project's local URL
+      "webRoot": "${workspaceFolder}",
+      "runtimeExecutable": "stable" // Use the "stable" or custom browser path
+    }
+  ]
+}
+```
+
+3. 根据需要修改`url`和`runtimeExecutable`
+
+![调试配置](https://upyun-oss.mu00.cn/202407031502887.png)
+
+---
+
+注：`runtimeExecutable`默认使用`stable`即可，若提示错误，请将该值改为`浏览器地址`
+
+例如`Google Chrome`浏览器（Win）：
+
+```bash
+C:/Program Files/Google/Chrome/Application/chrome.exe
+```
+
+### ✨2、启动调试
+
+1. 在代码文件中添加**断点**（红框位置，鼠标单击）
+
+![添加断点](https://upyun-oss.mu00.cn/202407031459351.png)
+
+2. 在左侧工具栏中，选择`调试`，运行`dev`即可
+
+![启动调试](https://upyun-oss.mu00.cn/202407031501726.png)

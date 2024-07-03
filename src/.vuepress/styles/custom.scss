@@ -4,6 +4,28 @@
   flex-wrap: wrap;
 }
 
+html[data-theme="light"] {
+  blockquote {
+    background-color: #ecf8f2;
+  }
+}
+html[data-theme="dark"] {
+  blockquote {
+    background-color: #232f29;
+  }
+}
+
+code {
+  color: var(--theme-color);
+}
+
+blockquote {
+  border-color: #42b983 !important;
+  p {
+    padding: 0.5rem 0;
+  }
+}
+
 /* 媒体自适应 */
 
 /* 小于 768px 《===》xs */
