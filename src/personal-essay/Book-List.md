@@ -15,6 +15,11 @@ bookListBy2024:
     pic: https://upyun-oss.mu00.cn/202406291653009.png
     desc: 让你的笔记记得好、找得到、用得上
     link: https://book.douban.com/subject/36615020/
+  - title: 每一天梦想练习
+    author: 另维
+    pic: https://upyun-oss.mu00.cn/202407031403355.jpg
+    desc: 每个人都有一份属于自己的意义；只看你有没有幸运碰到；如果碰不到，有没有毅力找到；我们能做的，是不在找到之前任命。
+    link: https://book.douban.com/subject/36615020/
 ---
 
 # 沐沐书屋
