@@ -66,6 +66,11 @@ export default navbar([
         icon: "icon-SVG",
         link: "https://chat.mu00.cn/",
       },
+      {
+        text: "LobeChat",
+        icon: "icon-SVG",
+        link: "https://lobe-chat.mu00.cn/",
+      },
     ],
   },
 ]);
