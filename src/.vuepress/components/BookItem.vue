@@ -4,7 +4,7 @@
       <div class="front">
         <img :src="pic" no-view />
       </div>
-      <div class="back">
+      <div class="back" :title="desc">
         <p class="title">{{ title }}</p>
         <p class="author">{{ author }}(著)</p>
         <p class="desc">
@@ -109,7 +109,7 @@ const target = computed(() => {
       overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;
-      -webkit-line-clamp: 6;
+      -webkit-line-clamp: 5;
       -webkit-box-orient: vertical;
     }
   }
