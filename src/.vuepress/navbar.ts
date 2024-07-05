@@ -31,16 +31,22 @@ export default navbar([
     icon: "icon-bianjiqi",
   },
   {
-    text: "书签",
-    link: "/bookmark/development",
-    activeMatch: "/bookmark/",
-    icon: "icon-shuqian",
-  },
-  {
     text: "随笔",
-    link: "/personal-essay/Book-List",
     activeMatch: "/personal-essay/",
     icon: "icon-boke",
+    prefix: "/personal-essay/",
+    children: [
+      {
+        text: "沐沐书屋",
+        icon: "icon-keCheng",
+        link: "Book-List",
+      },
+      {
+        text: "百宝箱",
+        link: "Treasure-Box",
+        icon: "icon-yingyong",
+      },
+    ],
   },
   {
     text: "友链",

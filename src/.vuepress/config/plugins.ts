@@ -9,7 +9,7 @@ export default {
     //     !frontmatter.home &&
     //     filePathRelative.startsWith("posts")),
     // 采用 Frontmatter.description 作为文章摘要
-    // excerptLength: 0,
+    excerptLength: 0,
   },
 
   components: {
@@ -33,7 +33,6 @@ export default {
     codetabs: true,
     component: true,
     demo: true,
-    figure: true,
     imgLazyload: true,
     imgSize: true,
     include: true,

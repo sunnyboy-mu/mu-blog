@@ -3,12 +3,17 @@ import { onMounted } from "vue";
 import "vuepress-theme-hope/presets/bounce-icon.scss";
 import packageJson from "../../package.json";
 import BookItem from "./components/BookItem.vue";
+import { setupSnowFall } from "vuepress-theme-hope/presets/snowFall.js";
 
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
     app.component("BookItem", BookItem);
   },
   setup: () => {
+    setupSnowFall({
+      maxSize: 40,
+      speed: 3,
+    });
     onMounted(() => {
       console.log(
         `%c ✨小沐沐吖 v${packageJson.version}✨ %c ✨SunnyBoy Blog✨ %c\n

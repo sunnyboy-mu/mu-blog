@@ -67,3 +67,52 @@ blockquote {
     --mu-book-item-num: 4;
   }
 }
+
+.vp-card {
+  max-width: initial;
+  width: 80%;
+  --line-clamp: 2;
+
+  .vp-card-logo {
+    // border-radius: 0;
+  }
+
+  .vp-card-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp);
+    -webkit-box-orient: vertical;
+    min-height: 2.7em;
+  }
+}
+
+@media (max-width: hope-config.$mobile) {
+  .vp-card {
+    width: 80%;
+    --line-clamp: 3;
+  }
+}
+
+@media (min-width: hope-config.$mobile) {
+}
+
+@media (min-width: hope-config.$tablet) {
+}
+
+@media (min-width: hope-config.$pad) {
+  .vp-card {
+    width: 40%;
+    --line-clamp: 2;
+  }
+}
+
+@media (min-width: hope-config.$laptop) {
+  .vp-card {
+    width: 42%;
+    --line-clamp: 2;
+  }
+}
+
+@media (min-width: hope-config.$pc) {
+}

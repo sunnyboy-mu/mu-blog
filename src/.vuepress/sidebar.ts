@@ -127,33 +127,16 @@ export default sidebar({
       link: "VsCode",
     },
   ],
-  "/bookmark/": [
-    {
-      text: "开发生态",
-      icon: "icon-yingyong",
-      link: "development",
-    },
-    {
-      text: "在线工具",
-      icon: "icon-yingyong",
-      link: "tool",
-    },
-    {
-      text: "系统维护",
-      icon: "icon-yingyong",
-      link: "system",
-    },
-    {
-      text: "应用推荐",
-      icon: "icon-yingyong",
-      link: "application",
-    },
-  ],
   "/personal-essay/": [
     {
       text: "沐沐书屋",
       icon: "icon-keCheng",
       link: "Book-List",
+    },
+    {
+      text: "百宝箱",
+      link: "Treasure-Box",
+      icon: "icon-yingyong",
     },
   ],
 });
