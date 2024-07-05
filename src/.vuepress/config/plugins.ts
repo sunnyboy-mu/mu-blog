@@ -30,15 +30,10 @@ export default {
   mdEnhance: {
     align: true,
     attrs: true,
-    codetabs: true,
     component: true,
-    demo: true,
     imgLazyload: true,
     imgSize: true,
-    include: true,
     mark: true,
-    plantuml: true,
-    spoiler: true,
     stylize: [
       {
         matcher: "Recommended",
@@ -52,10 +47,6 @@ export default {
         },
       },
     ],
-    sub: true,
-    sup: true,
-    tabs: true,
     tasklist: true,
-    vPre: true,
   },
 } as PluginsOptions;

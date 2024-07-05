@@ -49,6 +49,24 @@ export default navbar([
     ],
   },
   {
+    text: "关于我",
+    activeMatch: "/about/",
+    icon: "icon-a-guanyuwodexian",
+    prefix: "/about/",
+    children: [
+      {
+        text: "个人简历",
+        icon: "icon-yulanjianli",
+        link: "curriculum-vitae",
+      },
+      {
+        text: "个人经历",
+        icon: "icon-gongzuojingli",
+        link: "work-experience",
+      },
+    ],
+  },
+  {
     text: "友链",
     icon: "icon-youlian",
     children: [
