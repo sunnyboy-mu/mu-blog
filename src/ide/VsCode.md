@@ -92,195 +92,24 @@ category:
 
 ## 2、插件推荐
 
-### 2.1 语言
-
-::: tip **Chinese (Simplified) (简体中文)**
-VS Code 中文（简体）语言包
-:::
-
-::: tip **Comment Translate**
-VSCode 注释翻译；详情配置见 QQ 收藏
-:::
-
-### 2.3 CSS
-
-::: tip **CSS Peek**
-将 CSS 的 ID 和类字符串作为从 html 文件到相应 CSS 的定义进行查询
-
-允许速览和转到定义
-
-`Ctrl + 左键`可以直接定位到该名称 CSS 的位置
-:::
-
-::: tip **IntelliSense for CSS class names in HTML**
-智能感知 HTML 中的 CSS 类名
-
-实现 BootStrap、Layui 等 UI 库的样式类名提示
-:::
-
-::: tip **HTML CSS Support**
-补充缺少的 CSS 支持
-
-类属性补全、ID 属性补全和全文件搜索 CSS 和 SCSS 提示等
-:::
-
-::: tip **vscode-styled-components**
-样式化组件的语法突出显示和智能感知；
-
-在 JavaScript 中提示 CSS 样式
-:::
-
-### 2.4 JavaScript
-
-::: tip **JavaScript Snippet Pack**
-一个片段包，让你更有效地使用 JavaScript
-:::
-
-::: tip **Inline Parameters for VSCode**
-显示的函数参数注释
-:::
-
-::: tip **Parameter Hints**
-自动参数提示
-:::
-
-### 2.5 Vue
-
-::: tip **Vetur**
-Vue 2 语言支持
-:::
-
-::: tip **Vue Language Features (Volar)**
-Vue 3 语言支持
-:::
-
-::: tip **TypeScript Vue Plugin (Volar)**
-Vue 3 + TypeScript 语言支持
-:::
-
-::: tip **VueHelper**
-Vue，Vue-Router 和 Vuex 的代码片段
-:::
-
-::: tip **vue-helper**
-增强 Vue 和 Element-UI，VUX，IVIEW 的扩展能力
-:::
-
-::: tip **vue-helper**
-增强 Vue 和 Element-UI，VUX，IVIEW 的扩展能力
-:::
-
-::: tip **Vue 3 Snippets**
-Vue 2 和 Vue3 代码片段
-:::
-
-::: tip **vue-component**
-轻松使用 vue 组件
-:::
-
-### 2.6 组件库
-
-::: tip **element-ui-helper**
-文档悬停提示和自动完成工具
-:::
-
-::: tip **vscode-element-helper**
-Element-UI 代码片段
-:::
-
-### 2.7 Git
-
-::: tip **GitLens — Git supercharged**
-通过 Git 责备注释和 CodeLens 一目了然地可视化代码创作
-:::
-
-::: tip **Git History Diff**
-查看 Git 历史记录、责备信息、存储详细信息、已提交文件的差异
-:::
-
-### 2.8 路径
-
-::: tip **Path Autocomplete**
-路径自动完成
-:::
-
-::: tip **Path Intellisense**
-路径智能感知
-:::
-
-::: tip **别名路径跳转**
-别名路径跳转插件，支持任何项目，可以自由配置映射规则，自由配置可缺省后缀名列表
-:::
-
-### 2.9 代码运行
-
-::: tip **Live Server**
-启动一个本地开发服务器，为静态动态页面提供实时重新加载功能
-:::
-
-::: tip **open in browser**
-快速使用本地浏览器打开 HTML 文件
-:::
-
-::: tip **Code Runne**
-强大的代码运行程序
-:::
-
-### 2.10 图标美化
-
-::: tip **vscode-icons**
-超级好看的文件图标 icon
-:::
-
-::: tip **Material Icon Theme**
-超级好看的文件图标 icon
-:::
-
-### 2.10 美化
-
-::: tip **Image preview**
-在装订线和悬停时显示图像预览
-:::
-
-::: tip **indent-rainbow**
-使缩进更具可读性 - 彩虹缩进
-:::
-
-::: tip **Template String Converter**
-模板字符串转换器
-:::
-
-### 2.11 代码格式化
-
-::: tip **Prettier - Code formatter**
-更漂亮的格式化程序
-
-依赖配置插件: `PrettierConfig for VS Code`
-:::
-
-::: tip **PrettierConfig for VS Code**
-配置插件
-:::
-
-### 2.12 AI 代码
-
-::: tip **CodeGeeX**
-智能编程助手
-:::
-
-### 2.12 uni-app
-
-::: tip **uni-create-view**
-快速创建页面
-:::
-
-::: tip **uni-helper**
-uni-app 代码提示
-:::
-
-::: tip **uniapp 小程序扩展**
-鼠标悬停查文档
-:::
+| 名称                                       | 描述               |
+| :----------------------------------------- | :----------------- |
+| `IntelliSense for CSS class names in HTML` | 智能 CSS 类名提示  |
+| `Inline Parameters for VSCode`             | 函数参数提示       |
+| `Vue - Official`                           | Vue 语法支持       |
+| `Code Spell Checker`                       | 单词拼写检查       |
+| `VueHelper`                                | Vue 代码片段       |
+| `vue-helper`                               | Vue 代码片段       |
+| `Path Autocomplete`                        | 路径别名支持       |
+| `Path Intellisense`                        | 路径别名支持       |
+| `Live Server`                              | 本地开发服务器     |
+| `Code Runne`                               | 代码运行程序       |
+| `Material Icon Theme`                      | VsCode 文件图标    |
+| `Image preview`                            | 代码行图像预览     |
+| `indent-rainbow`                           | 彩虹缩进           |
+| `Prettier - Code formatter`                | 代码格式化程序     |
+| `PrettierConfig for VS Code`               | 代码格式化程序配置 |
+| `CodeGeeX`                                 | 智能 AI 编程助手   |
 
 ## 3、插件配置
 
@@ -309,30 +138,6 @@ uni-app 代码提示
 ```
 
 :::
-
-### 3.2 Comment Translate 配置
-
-```json
-{
-  "commentTranslate.source": "intellsmi.comment-translate-ali.cloud",
-  "commentTranslate.targetLanguage": "zh-CN",
-  "commentTranslate.translationAli.accessKeyId": "xxxx",
-  "commentTranslate.translationAli.accessKeySecret": "xxxx",
-  "commentTranslate.googleTranslate.tld": "cn",
-  "commentTranslate.ignore": [
-    {
-      "languageId": "javascript,typescript,javascriptreact,typescriptreact",
-      "regular": "[\\*\\s]+"
-    },
-    {
-      "languageId": "dart",
-      "regular": "[\\s|/]+"
-    }
-  ],
-  "commentTranslate.hover.variable": true,
-  "commentTranslate.hover.concise": true
-}
-```
 
 ## 4、项目环境配置
 
