@@ -1,8 +1,11 @@
 ---
 icon: icon-gongzuojingli
 article: false
+date: 2024-07-08
 ---
 
 # 个人经历
 
-## （建设中）
+## 敬请期待...
+
+##

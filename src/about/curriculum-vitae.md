@@ -2,25 +2,29 @@
 title: 个人简历
 icon: icon-yulanjianli
 article: false
+date: 2024-07-08
+containerClass: curriculum-vitae
 ---
 
 # 彭衍召
 
-<p style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
     <span>求职意向: 前端开发工程师</span>
     <span>工作经验: 2年</span>
-</p>
+</div>
 
-<p style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
     <span>联系电话: 13460187156</span>
     <span>
         邮箱: 
         <a href="mailto:sunnyboy_mu@163.com">sunnyboy_mu@163.com</a>
     </span>
-</p>
-<p style="display: flex; justify-content: space-between;">
-    <span>个人博客:  <a target="_blank" href="https://blog.mu00.cn/">blog.mu00.cn</a></span>
-</p>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <span>个人博客:  <a target="_blank" href="https://blog.mu00.cn/">Blog</a></span>
+    <span>项目经历:  <a target="_blank" href="https://blog.mu00.cn/about/work-experience.html">Project</a></span>
+</div>
 
 > **个人优势**
 
@@ -36,10 +40,10 @@ article: false
 
 > **工作经历**
 
-<p style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
     <b>河南创途(河南知更鸟信息科技有限公司) - 前端开发工程师</b>
     <b>（2024.02 - 至今）</b>
-</p>
+</div>
 
 1. 推动公司逐步废弃 `Jquery+LayUi+BootStrap` 的 `JSP` 开发方式，全面启用 `Vue` 框架；
 2. 开发 `Vite` 插件，实现打包后，自动构建为 `JSP` 代码，实现兼容旧代码以及前后端不分离的部署方式，
@@ -47,10 +51,10 @@ article: false
 4. 参与公司底层代码（模块）开发，推动重构为前后端完全分离；
 5. 从 0 到 1 搭建前端模板，并封装 `Cli` 脚手架工具，实现一行命令自动创建公司前端项目模块，提升开发效率；
 
-<p style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
     <b>武汉先知科技有限公司 - 前端开发工程师</b>
     <b>（2022.07 - 2024.02）</b>
-</p>
+</div>
 
 1. 根据产品设计和项目需求，负责实现产品前端界面的效果和功能；
 2. 负责 PC 端：度量平台(及管理端)、自动化测试平台、白鲨针布 ERP、综合考评平台等页面实现和逻辑开发；
@@ -59,10 +63,10 @@ article: false
 
 > **项目经历**
 
-<p style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
     <b>中豫智慧业务管理平台</b>
     <b>2024.02 - 至今</b>
-</p>
+</div>
 
 **项目描述**： 依托 CMS 网站群（9 二级单位+20 三级单位）、四大基础中台（技术、数据、业务、安全）、九大业务域（党建、财务、人力资源、投资管理、设计业务、监理、督查督办、合同管理、法务风险）；增强集团信息化技术支持能力、业务构建能力、数据治理能力；实现集团信息化技术支持能力、业务构建能力、数据治理能力；推动集团内部及对外资源共享、跨界融合、协同发展。
 
@@ -83,10 +87,10 @@ article: false
 
 ---
 
-<p style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
     <b>度量平台（前台 + 管理端）</b>
     <b>2023.08 - 2024-02</b>
-</p>
+</div>
 
 **项目描述**：系统对内部所有项目进行指标观测，如：交付职能、提测质量、代码评审、代码扫描、单元测试、安全扫描、压力测试等等；以及对 各个平台（如：Gitlab、Jenkins、Max-Cloud 等，以及通过子工程提供的接口将数据上报至度量平台）数据进行汇总，分析与展示，同时生成各种报告，如工程月报、MTG 月报、单测报告、协议报告等等；管理端主要用于对生成报告进行配置，以及控制项目接入测试平台（Jenkins）和度量平台。
 
@@ -103,10 +107,10 @@ article: false
 
 ---
 
-<p style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
     <b>白鲨针布（微信小程序）</b>
     <b>2023.08 - 至今</b>
-</p>
+</div>
 
 **项目描述**：白鲨针布 ERP 小程序端，方便用户进行发起审批（如：请假、费用报销、用章申请等等，PC 端通过动态表单可以创建各种审批模板）、处理审批、薪酬查询、公告查看、住宿申请等等。
 
@@ -124,10 +128,10 @@ article: false
 
 ---
 
-<p style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
     <b>综合考评平台</b>
     <b>2022.10 - 2023.06</b>
-</p>
+</div>
 
 **项目描述**：综合考评平台集成了绩效、党建和干部考评的三个维度。它支持两种评定方式：记名和匿名，通过试卷答题的方式进行评估。经过特定算法的处理，系统可以呈现客户需要的各种成绩展示效果，包括数据大屏和数据表格等功能
 
@@ -145,10 +149,10 @@ article: false
 
 ---
 
-<p style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;">
     <b>综合考评（APP）</b>
     <b>2022.10 - 2023.06</b>
-</p>
+</div>
 
 **项目描述**：一款方便综合考评平台用户查看考评结果的手机端 APP，包括考评结果展示（绩效考评、党建考评、干部考评）、我的、个人资料、头像上传等功能。
 
