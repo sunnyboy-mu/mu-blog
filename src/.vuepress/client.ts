@@ -8,13 +8,13 @@ import { setupSnowFall } from "vuepress-theme-hope/presets/snowFall.js";
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
     app.component("BookItem", BookItem);
-    app.mixin({
-      mounted() {
-        import("@layui/layui-vue").then(function (m) {
-          app.use(m.default);
-        });
-      },
-    });
+    // app.mixin({
+    //   mounted() {
+    //     import("@layui/layui-vue").then(function (m) {
+    //       app.use(m.default);
+    //     });
+    //   },
+    // });
   },
   setup: () => {
     setupSnowFall({

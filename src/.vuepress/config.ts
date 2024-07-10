@@ -1,4 +1,5 @@
 import { getDirname, path } from "vuepress/utils";
+import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 const __dirname = getDirname(import.meta.url);
@@ -42,6 +43,14 @@ export default defineUserConfig({
       size: 90,
     }),
   ],
+
+  bundler: viteBundler({
+    viteOptions: {
+      ssr: {
+        noExternal: ["@layui/layui-vue"],
+      },
+    },
+  }),
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,

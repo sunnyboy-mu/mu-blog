@@ -7,11 +7,11 @@ containerClass: work-experience
 
 <script setup>
 import { ref } from 'vue'
-// const LayIcon = (await import('@layui/layui-vue/es/icon/index.js')).default
-// const LayTimeline = (await import('@layui/layui-vue/es/timeline/index.js')).default
-// const LayTimelineItem = (await import('@layui/layui-vue/es/timelineItem/index.js')).default
-// const LayCarousel = (await import('@layui/layui-vue/es/carousel/index.js')).default
-// const LayCarouselItem = (await import('@layui/layui-vue/es/carouselItem/index.js')).default
+import LayIcon from '@layui/layui-vue/es/icon/index.js';
+import LayTimeline from '@layui/layui-vue/es/timeline/index.js';
+import LayTimelineItem from '@layui/layui-vue/es/timelineItem/index.js';
+import LayCarousel from '@layui/layui-vue/es/carousel/index.js';
+import LayCarouselItem from '@layui/layui-vue/es/carouselItem/index.js';
 
 import '@layui/layui-vue/es/index/index.css'
 import '@layui/layui-vue/es/timeline/index.css'
