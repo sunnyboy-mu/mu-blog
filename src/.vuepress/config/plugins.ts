@@ -34,6 +34,7 @@ export default {
     imgLazyload: true,
     imgSize: true,
     mark: true,
+    tabs: true,
     stylize: [
       {
         matcher: "Recommended",

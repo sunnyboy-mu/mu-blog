@@ -19,7 +19,6 @@
     "vuepress-theme-hope": "2.0.0-rc.50"
   },
   "dependencies": {
-    "@layui/layui-vue": "^2.17.7",
     "@vueuse/core": "^10.11.0"
   }
 }

@@ -44,14 +44,6 @@ export default defineUserConfig({
     }),
   ],
 
-  bundler: viteBundler({
-    viteOptions: {
-      ssr: {
-        noExternal: ["@layui/layui-vue"],
-      },
-    },
-  }),
-
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });
