@@ -6,22 +6,7 @@ containerClass: work-experience
 ---
 
 <script setup>
-import { ref } from 'vue'
-import LayIcon from '@layui/layui-vue/es/icon/index.js';
-import LayTimeline from '@layui/layui-vue/es/timeline/index.js';
-import LayTimelineItem from '@layui/layui-vue/es/timelineItem/index.js';
-import LayCarousel from '@layui/layui-vue/es/carousel/index.js';
-import LayCarouselItem from '@layui/layui-vue/es/carouselItem/index.js';
 import WorkExperience from "@source/.vuepress/components/WorkExperience.vue";
-
-import '@layui/layui-vue/es/index/index.css'
-import '@layui/layui-vue/es/timeline/index.css'
-import '@layui/layui-vue/es/carousel/index.css'
-const carouselOne = ref("1")
-const carouselTwo = ref("1")
-const carouselThree = ref("1")
-const carouselFour = ref("1")
-const carouselFive = ref("1")
 </script>
 
 # 个人经历
