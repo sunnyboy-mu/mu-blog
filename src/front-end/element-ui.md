@@ -60,8 +60,8 @@ export { SelectTree };
         :value="item[nodeKey]"
         :label="item[props?.label ?? 'label']"
         style="display: none"
-        :key="item[nodeKey]"
-        v-for="item in optionData"
+        :key="item[nodeKey] + index"
+        v-for="(item, index) in optionData"
       ></el-option>
     </template>
 
@@ -171,34 +171,40 @@ export default {
     showCheckbox() {
       return this.multiple;
     },
+    optionData() {
+      return this.flatteningTreeData.filter((item) =>
+        this.value.includes(item[this.nodeKey])
+      );
+    },
   },
 
   watch: {
-    value(val) {
-      if (!this.multiple) {
-        this.setCurrentNode(val);
-      } else {
-        this.setMultipleCurrentNode(val);
-      }
+    value: {
+      handler(val) {
+        if (!this.multiple) {
+          this.setCurrentNode(val);
+        } else {
+          this.setMultipleCurrentNode(val);
+        }
 
-      if (!val) {
-        return;
-      }
-
-      this.optionData = this.flatteningTreeData.filter((item) => {
-        return val.includes(item[this.nodeKey]);
-      });
+        if (!val) {
+          return;
+        }
+      },
+      immediate: true,
     },
 
-    data(val) {
-      this.flatteningTree(val);
+    data: {
+      handler(val) {
+        this.flatteningTree(val);
+      },
+      immediate: true,
     },
   },
 
   data() {
     return {
       flatteningTreeData: [],
-      optionData: [],
     };
   },
 
