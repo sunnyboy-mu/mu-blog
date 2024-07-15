@@ -14,14 +14,18 @@ containerClass: work-experience
 > 职位：`前端开发工程师`
 >
 > 时间：`2024年2月 ~ 至今`
+>
+> 项目：`中豫智慧业务管理平台`
+>
+> 描述：依托 CMS 网站群（9 二级单位+20 三级单位）、四大基础中台（技术、数据、业务、安全）、九大业务域（党建、财务、人力资源、投资管理、设计业务、监理、督查督办、合同管理、法务风险）；增强集团信息化技术支持能力、业务构建能力、数据治理能力；实现集团信息化技术支持能力、业务构建能力、数据治理能力；推动集团内部及对外资源共享、跨界融合、协同发展。
+>
+> 技术栈（前端）：`Layui`、`Bootstrap`、`Vue2.0全家桶`、`Element-UI`、`Vant-UI`、`Uni-app`、`Echarts`、`Bpmnjs`、`DataV`等等
+>
+> 技术栈（后端）：`Java`、`Spring Boot`、`Cas`、`Sa-Token`、`Redis`、`MySQL`、`JSP`、`Activiti`等等
 
 ### 1.1、业务中台
 
 > 项目：[`业务中台`](http://biz.zyjstzjt.com/)
->
-> 技术栈：`Vue3 + Pinia + Element Plus + Vite + Axios + ECharts + WebSocket + Git`
->
-> 项目描述：
 
 ::: tabs
 
@@ -50,10 +54,6 @@ containerClass: work-experience
 ### 1.2、CMS
 
 > 项目：[`CMS`](http://111.6.191.20:9000/)
->
-> 技术栈：`Vue3 + Pinia + Element Plus + Vite + Axios + ECharts + WebSocket + Git`
->
-> 项目描述：
 
 ::: tabs
 
@@ -80,10 +80,6 @@ containerClass: work-experience
 > 项目：[`数据中台`](http://info.zyjstzjt.com/)
 
 #### 1.3.1、数智化管控平台
-
-> 技术栈：`Vue3 + Pinia + Element Plus + Vite + Axios + ECharts + WebSocket + Git`
->
-> 项目描述：
 
 ::: tabs
 
@@ -115,10 +111,6 @@ containerClass: work-experience
 
 #### 1.3.2、财务共享
 
-> 技术栈：`Vue3 + Pinia + Element Plus + Vite + Axios + ECharts + WebSocket + Git`
->
-> 项目描述：
-
 ::: tabs
 
 @tab 中豫集团
@@ -145,10 +137,6 @@ containerClass: work-experience
 
 #### 1.3.3、DataEase
 
-> 技术栈：`Vue3 + Pinia + Element Plus + Vite + Axios + ECharts + WebSocket + Git`
->
-> 项目描述：
-
 ::: tabs
 
 @tab 工作台
@@ -166,10 +154,6 @@ containerClass: work-experience
 > 项目：[`技术中台`](http://iam.zyjstzjt.com/)
 
 #### 1.4.1、统一门户（一网通办）
-
-> 技术栈：`Vue3 + Pinia + Element Plus + Vite + Axios + ECharts + WebSocket + Git`
->
-> 项目描述：
 
 ::: tabs
 
@@ -205,10 +189,6 @@ containerClass: work-experience
 
 #### 1.4.2、统一门户（一网通办）APP
 
-> 技术栈：`Vue3 + Pinia + Element Plus + Vite + Axios + ECharts + WebSocket + Git`
->
-> 项目描述：
-
 ::: tabs
 
 @tab 首页
@@ -233,6 +213,36 @@ containerClass: work-experience
 
 :::
 
+#### 1.4.3、数据资产
+
+::: tabs
+
+@tab 数据资产市场
+
+![数据资产市场](https://upyun-oss.mu00.cn/202407151925112.webp)
+
+@tab 开发者管理
+
+![开发者管理](https://upyun-oss.mu00.cn/202407151926862.webp)
+
+@tab 资产授权
+
+![资产授权](https://upyun-oss.mu00.cn/202407151926347.webp)
+
+@tab 资产分类
+
+![资产分类](https://upyun-oss.mu00.cn/202407151926870.webp)
+
+@tab 资产管理
+
+![资产管理](https://upyun-oss.mu00.cn/202407151926438.webp)
+
+@tab 开发者授权
+
+![开发者授权](https://upyun-oss.mu00.cn/202407151927579.webp)
+
+:::
+
 ## 2、新信澜科技
 
 > 公司：`河南新信澜网络科技有限公司`
@@ -240,3 +250,5 @@ containerClass: work-experience
 > 职位：`前端开发工程师`
 >
 > 时间：`2022年8月 ~ 2024年1月`
+
+略···

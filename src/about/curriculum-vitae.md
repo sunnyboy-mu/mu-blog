@@ -35,8 +35,7 @@ containerClass: curriculum-vitae
 5. 熟练使用 Element-UI、Ant Design、Vant 等组件库，并能进行业务驱动的自定义和优化；
 6. 熟练运用 ECharts 等数据可视化工具，具备数据大屏开发经验；
 7. 熟悉前后端交互技术 Ajax，JSON 和 RESTful API 设计风格，善于协同完成前后端项目；
-8. 了解 npm、yarn、pnpm 等包管理工具，熟练使用 Git 版本控制工具；
-9. 熟悉 Java 后端技术，熟练使用 Spring/Spring Boot 框架，能够独立完成中小型全栈项目开发。
+8. 熟悉 Java 后端技术，熟练使用 Spring/Spring Boot 框架，能够独立完成中小型全栈项目开发。
 
 > **工作经历**
 
