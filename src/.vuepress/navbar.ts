@@ -91,9 +91,9 @@ export default navbar([
         link: "https://chat.mu00.cn/",
       },
       {
-        text: "LobeChat",
+        text: "Snow Dream",
         icon: "icon-SVG",
-        link: "https://lobe-chat.mu00.cn/",
+        link: "https://chat-api.mu00.cn/",
       },
     ],
   },
