@@ -17,6 +17,9 @@ html[data-theme="dark"] {
 .theme-hope-content {
   & > p {
     text-indent: 2em;
+    img {
+      display: block;
+    }
   }
 }
 #main-content {
