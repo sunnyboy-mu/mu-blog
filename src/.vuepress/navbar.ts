@@ -91,6 +91,11 @@ export default navbar([
         link: "https://chat.mu00.cn/",
       },
       {
+        text: "ChatGPT Web",
+        icon: "icon-SVG",
+        link: "https://lobe-chat.mu00.cn/",
+      },
+      {
         text: "Snow Dream",
         icon: "icon-SVG",
         link: "https://chat-api.mu00.cn/",
