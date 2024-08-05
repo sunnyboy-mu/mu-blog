@@ -20,6 +20,10 @@ bookListBy2024:
     pic: https://upyun-oss.mu00.cn/202407031403355.jpg
     desc: 每个人都有一份属于自己的意义；只看你有没有幸运碰到；如果碰不到，有没有毅力找到；我们能做的，是不在找到之前任命。
     link: https://book.douban.com/subject/36615020/
+  - title: 所有的为时已晚，其实都是恰逢其时
+    author: 文德
+    pic: https://upyun-oss.mu00.cn/202408052027105.webp
+    desc: 想到就去做，因为那就是最好的开始。
 ---
 
 # 沐沐书屋
