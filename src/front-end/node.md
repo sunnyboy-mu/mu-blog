@@ -10,7 +10,7 @@ category:
 
 ## 1、npm
 
-### 1. 配置镜像源
+### 1.1、配置镜像源
 
 - 华为镜像
 
@@ -29,6 +29,18 @@ npm config set registry https://registry.npmmirror.com
 **扩展**
 
 [淘宝 NPM 镜像加速包管理工具 - tbify](http://npm.taobao.org/package/tbify/home)
+
+### 1.2、常用命令
+
+::: info 忽略对等依赖错误
+
+解决依赖版本冲突，强行安装依赖
+
+```bash
+npm install --legacy-peer-deps
+```
+
+:::
 
 ## 2、详解 package.json
 

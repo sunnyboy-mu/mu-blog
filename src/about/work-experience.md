@@ -49,6 +49,22 @@ containerClass: work-experience
 
 ![BPMN 流程设计 2](https://upyun-oss.mu00.cn/202407102329150.webp)
 
+@tab 权限资源分析表
+
+![权限资源分析表](https://upyun-oss.mu00.cn/202408052008110.webp)
+
+@tab 人员权限树
+
+![人员权限树](https://upyun-oss.mu00.cn/202408052008270.webp)
+
+@tab 组织架构图谱
+
+![组织架构图谱](https://upyun-oss.mu00.cn/202408052009599.webp)
+
+@tab 权限资源分析
+
+![权限资源分析](https://upyun-oss.mu00.cn/202408052009609.webp)
+
 :::
 
 ### 1.2、CMS
@@ -193,23 +209,23 @@ containerClass: work-experience
 
 @tab 首页
 
-![首页](https://upyun-oss.mu00.cn/202407112345592.webp)
+![首页](https://upyun-oss.mu00.cn/202408052025374.webp)
 
 @tab 待办 服务
 
-![待办 服务](https://upyun-oss.mu00.cn/202407112345544.webp)
+![待办 服务](https://upyun-oss.mu00.cn/202408052025720.webp)
 
 @tab 通讯录
 
-![通讯录](https://upyun-oss.mu00.cn/202407112346371.webp)
+![通讯录](https://upyun-oss.mu00.cn/202408052025440.webp)
 
 @tab 个人中心
 
-![个人中心](https://upyun-oss.mu00.cn/202407112347838.webp)
+![个人中心](https://upyun-oss.mu00.cn/202408052025277.webp)
 
 @tab 消息 日程
 
-![消息 日程](https://upyun-oss.mu00.cn/202407112347690.webp)
+![消息 日程](https://upyun-oss.mu00.cn/202408052025804.webp)
 
 :::
 
@@ -240,6 +256,64 @@ containerClass: work-experience
 @tab 开发者授权
 
 ![开发者授权](https://upyun-oss.mu00.cn/202407151927579.webp)
+
+:::
+
+### 1.5、安全中台
+
+::: tabs
+
+@tab 服务器管理
+
+![服务器管理](https://upyun-oss.mu00.cn/202408052011664.webp)
+
+@tab 服务器管理-操作
+
+![服务器管理-操作](https://upyun-oss.mu00.cn/202408052011087.webp)
+
+@tab 应用服务管理
+
+![应用服务管理](https://upyun-oss.mu00.cn/202408052012055.webp)
+
+@tab 服务监控列表
+
+![服务监控列表](https://upyun-oss.mu00.cn/202408052012057.webp)
+
+@tab 服务器实时监控
+
+![服务器实时监控](https://upyun-oss.mu00.cn/202408052012312.webp)
+
+@tab 漏洞类型管理
+
+![漏洞类型管理](https://upyun-oss.mu00.cn/202408052013288.webp)
+
+@tab 漏洞管理
+
+![漏洞管理](https://upyun-oss.mu00.cn/202408052013869.webp)
+
+@tab 数据库备份
+
+![数据库备份](https://upyun-oss.mu00.cn/202408052014476.webp)
+
+@tab 数据库表结构
+
+![数据库表结构](https://upyun-oss.mu00.cn/202408052014596.webp)
+
+@tab 热点及慢 SQL
+
+![热点及慢SQL](https://upyun-oss.mu00.cn/202408052015839.webp)
+
+@tab 日志管理
+
+![日志管理](https://upyun-oss.mu00.cn/202408052015069.webp)
+
+@tab 实时日志
+
+![实时日志](https://upyun-oss.mu00.cn/202408052015862.webp)
+
+@tab 日志文件下载
+
+![日志文件下载](https://upyun-oss.mu00.cn/202408052015647.webp)
 
 :::
 
