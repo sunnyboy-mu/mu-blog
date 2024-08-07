@@ -3,6 +3,138 @@ icon: icon-gongzuojingli
 article: false
 date: 2024-07-08
 containerClass: work-experience
+
+ywztPic:
+  - title: 应用设计
+    image: https://upyun-oss.mu00.cn/202407102328993.webp
+  - title: 流水号
+    image: https://upyun-oss.mu00.cn/202407102329978.webp
+  - title: 电子签章
+    image: https://upyun-oss.mu00.cn/202407102329485.webp
+  - title: BPMN 流程设计 1
+    image: https://upyun-oss.mu00.cn/202407102329446.webp
+  - title: BPMN 流程设计 2
+    image: https://upyun-oss.mu00.cn/202407102329150.webp
+  - title: 权限资源分析表
+    image: https://upyun-oss.mu00.cn/202408052008110.webp
+  - title: 人员权限树
+    image: https://upyun-oss.mu00.cn/202408052008270.webp
+  - title: 组织架构图谱
+    image: https://upyun-oss.mu00.cn/202408052009599.webp
+  - title: 权限资源分析
+    image: https://upyun-oss.mu00.cn/202408052009609.webp
+
+cmsPic:
+  - title: 内容管理
+    image: https://upyun-oss.mu00.cn/202407102326774.webp
+  - title: 模板管理
+    image: https://upyun-oss.mu00.cn/202407102326133.webp
+  - title: 站点管理
+    image: https://upyun-oss.mu00.cn/202407102326243.webp
+  - title: 微信公众号
+    image: https://upyun-oss.mu00.cn/202407102326679.webp
+
+szhgktPic:
+  - title: 中豫集团
+    image: https://upyun-oss.mu00.cn/202407102313534.webp
+  - title: 人力资源
+    image: https://upyun-oss.mu00.cn/202407102314609.webp
+  - title: 投资管理
+    image: https://upyun-oss.mu00.cn/202407102314988.webp
+  - title: 招采管理
+    image: https://upyun-oss.mu00.cn/202407102314969.webp
+  - title: 项目管理-年度
+    image: https://upyun-oss.mu00.cn/202407102314409.webp
+  - title: 项目管理-累计
+    image: https://upyun-oss.mu00.cn/202407102314316.webp
+
+cwgxPic:
+  - title: 中豫集团
+    image: https://upyun-oss.mu00.cn/202407102315916.webp
+  - title: 管控下钻
+    image: https://upyun-oss.mu00.cn/202407102315662.webp
+  - title: 数据探索
+    image: https://upyun-oss.mu00.cn/202407102315610.webp
+  - title: 态势感知
+    image: https://upyun-oss.mu00.cn/202407102315156.webp
+  - title: 分公司
+    image: https://upyun-oss.mu00.cn/202407102315991.webp
+
+dataEasePic:
+  - title: 工作台
+    image: https://upyun-oss.mu00.cn/202407102315911.webp
+  - title: 可视化设计
+    image: https://upyun-oss.mu00.cn/202407102315826.webp
+
+tymhPic:
+  - title: 身份认证中心
+    image: https://upyun-oss.mu00.cn/202407102252925.webp
+  - title: 首页
+    image: https://upyun-oss.mu00.cn/202407102255653.webp
+  - title: 办事大厅
+    image: https://upyun-oss.mu00.cn/202407102255109.webp
+  - title: 个人中心 1
+    image: https://upyun-oss.mu00.cn/202407102256351.webp
+  - title: 个人中心 2
+    image: https://upyun-oss.mu00.cn/202407102258042.webp
+  - title: 应用管理
+    image: https://upyun-oss.mu00.cn/202407102259064.webp
+  - title: 中豫建投开发者中心
+    image: https://upyun-oss.mu00.cn/202407102259372.webp
+
+tymhAppPic:
+  - title: 首页
+    image: https://upyun-oss.mu00.cn/202408052025374.webp
+  - title: 待办 服务
+    image: https://upyun-oss.mu00.cn/202408052025720.webp
+  - title: 通讯录
+    image: https://upyun-oss.mu00.cn/202408052025440.webp
+  - title: 个人中心
+    image: https://upyun-oss.mu00.cn/202408052025277.webp
+  - title: 消息 日程
+    image: https://upyun-oss.mu00.cn/202408052025804.webp
+
+sjzcPic:
+  - title: 数据资产市场
+    image: https://upyun-oss.mu00.cn/202407151925112.webp
+  - title: 开发者管理
+    image: https://upyun-oss.mu00.cn/202407151926862.webp
+  - title: 资产授权
+    image: https://upyun-oss.mu00.cn/202407151926347.webp
+  - title: 资产分类
+    image: https://upyun-oss.mu00.cn/202407151926870.webp
+  - title: 资产管理
+    image: https://upyun-oss.mu00.cn/202407151926438.webp
+  - title: 开发者授权
+    image: https://upyun-oss.mu00.cn/202407151927579.webp
+
+aqztPic:
+  - title: 服务器管理
+    image: https://upyun-oss.mu00.cn/202408052011664.webp
+  - title: 服务器管理-操作
+    image: https://upyun-oss.mu00.cn/202408052011087.webp
+  - title: 应用服务管理
+    image: https://upyun-oss.mu00.cn/202408052012055.webp
+  - title: 服务监控列表
+    image: https://upyun-oss.mu00.cn/202408052012057.webp
+  - title: 服务器实时监控
+    image: https://upyun-oss.mu00.cn/202408052012312.webp
+  - title: 漏洞类型管理
+    image: https://upyun-oss.mu00.cn/202408052013288.webp
+  - title: 漏洞管理
+    image: https://upyun-oss.mu00.cn/202408052013869.webp
+  - title: 数据库备份
+    image: https://upyun-oss.mu00.cn/202408052014476.webp
+  - title: 数据库表结构
+    image: https://upyun-oss.mu00.cn/202408052014596.webp
+  - title: 热点及慢 SQL
+    image: https://upyun-oss.mu00.cn/202408052015839.webp
+  - title: 日志管理
+    image: https://upyun-oss.mu00.cn/202408052015069.webp
+  - title: 实时日志
+    image: https://upyun-oss.mu00.cn/202408052015862.webp
+  - title: 日志文件下载
+    image: https://upyun-oss.mu00.cn/202408052015647.webp
 ---
 
 # 个人经历
@@ -27,69 +159,13 @@ containerClass: work-experience
 
 > 项目：[`业务中台`](http://biz.zyjstzjt.com/)
 
-::: tabs
-
-@tab 应用设计
-
-![应用设计](https://upyun-oss.mu00.cn/202407102328993.webp)
-
-@tab 流水号
-
-![流水号](https://upyun-oss.mu00.cn/202407102329978.webp)
-
-@tab 电子签章
-
-![电子签章](https://upyun-oss.mu00.cn/202407102329485.webp)
-
-@tab BPMN 流程设计 1
-
-![BPMN 流程设计 2](https://upyun-oss.mu00.cn/202407102329446.webp)
-
-@tab BPMN 流程设计 2
-
-![BPMN 流程设计 2](https://upyun-oss.mu00.cn/202407102329150.webp)
-
-@tab 权限资源分析表
-
-![权限资源分析表](https://upyun-oss.mu00.cn/202408052008110.webp)
-
-@tab 人员权限树
-
-![人员权限树](https://upyun-oss.mu00.cn/202408052008270.webp)
-
-@tab 组织架构图谱
-
-![组织架构图谱](https://upyun-oss.mu00.cn/202408052009599.webp)
-
-@tab 权限资源分析
-
-![权限资源分析](https://upyun-oss.mu00.cn/202408052009609.webp)
-
-:::
+<FadeCarousel :data="$frontmatter.ywztPic" height="420px" autoplay />
 
 ### 1.2、CMS
 
 > 项目：[`CMS`](http://111.6.191.20:9000/)
 
-::: tabs
-
-@tab 内容管理
-
-![内容管理](https://upyun-oss.mu00.cn/202407102326774.webp)
-
-@tab 模板管理
-
-![模板管理](https://upyun-oss.mu00.cn/202407102326133.webp)
-
-@tab 站点管理
-
-![站点管理](https://upyun-oss.mu00.cn/202407102326243.webp)
-
-@tab 微信公众号
-
-![微信公众号](https://upyun-oss.mu00.cn/202407102326679.webp)
-
-:::
+<FadeCarousel :data="$frontmatter.cmsPic" height="420px" autoplay />
 
 ### 1.3、数据中台
 
@@ -97,73 +173,15 @@ containerClass: work-experience
 
 #### 1.3.1、数智化管控平台
 
-::: tabs
-
-@tab 中豫集团
-
-![中豫集团](https://upyun-oss.mu00.cn/202407102313534.webp)
-
-@tab 人力资源
-
-![人力资源](https://upyun-oss.mu00.cn/202407102314609.webp)
-
-@tab 投资管理
-
-![投资管理](https://upyun-oss.mu00.cn/202407102314988.webp)
-
-@tab 招采管理
-
-![招采管理](https://upyun-oss.mu00.cn/202407102314969.webp)
-
-@tab 项目管理-年度
-
-![项目管理-年度](https://upyun-oss.mu00.cn/202407102314409.webp)
-
-@tab 项目管理-累计
-
-![项目管理-累计](https://upyun-oss.mu00.cn/202407102314316.webp)
-
-:::
+<FadeCarousel :data="$frontmatter.szhgktPic" height="420px" autoplay />
 
 #### 1.3.2、财务共享
 
-::: tabs
-
-@tab 中豫集团
-
-![中豫集团](https://upyun-oss.mu00.cn/202407102315916.webp)
-
-@tab 管控下钻
-
-![管控下钻](https://upyun-oss.mu00.cn/202407102315662.webp)
-
-@tab 数据探索
-
-![数据探索](https://upyun-oss.mu00.cn/202407102315610.webp)
-
-@tab 态势感知
-
-![态势感知](https://upyun-oss.mu00.cn/202407102315156.webp)
-
-@tab 分公司
-
-![分公司](https://upyun-oss.mu00.cn/202407102315991.webp)
-
-:::
+<FadeCarousel :data="$frontmatter.cwgxPic" height="420px" autoplay />
 
 #### 1.3.3、DataEase
 
-::: tabs
-
-@tab 工作台
-
-![工作台](https://upyun-oss.mu00.cn/202407102315911.webp)
-
-@tab 可视化设计
-
-![可视化设计](https://upyun-oss.mu00.cn/202407102315826.webp)
-
-:::
+<FadeCarousel :data="$frontmatter.dataEasePic" height="420px" autoplay />
 
 ### 1.4、技术中台
 
@@ -171,151 +189,19 @@ containerClass: work-experience
 
 #### 1.4.1、统一门户（一网通办）
 
-::: tabs
-
-@tab 身份认证中心
-
-![身份认证中心](https://upyun-oss.mu00.cn/202407102252925.webp)
-
-@tab 首页
-
-![首页](https://upyun-oss.mu00.cn/202407102255653.webp)
-
-@tab 办事大厅
-
-![办事大厅](https://upyun-oss.mu00.cn/202407102255109.webp)
-
-@tab 个人中心 1
-
-![个人中心 1](https://upyun-oss.mu00.cn/202407102256351.webp)
-
-@tab 个人中心 2
-
-![个人中心 2](https://upyun-oss.mu00.cn/202407102258042.webp)
-
-@tab 应用管理
-
-![应用管理](https://upyun-oss.mu00.cn/202407102259064.webp)
-
-@tab 中豫建投开发者中心
-
-![中豫建投开发者中心](https://upyun-oss.mu00.cn/202407102259372.webp)
-
-:::
+<FadeCarousel :data="$frontmatter.tymhPic" height="420px" autoplay />
 
 #### 1.4.2、统一门户（一网通办）APP
 
-::: tabs
-
-@tab 首页
-
-![首页](https://upyun-oss.mu00.cn/202408052025374.webp)
-
-@tab 待办 服务
-
-![待办 服务](https://upyun-oss.mu00.cn/202408052025720.webp)
-
-@tab 通讯录
-
-![通讯录](https://upyun-oss.mu00.cn/202408052025440.webp)
-
-@tab 个人中心
-
-![个人中心](https://upyun-oss.mu00.cn/202408052025277.webp)
-
-@tab 消息 日程
-
-![消息 日程](https://upyun-oss.mu00.cn/202408052025804.webp)
-
-:::
+<FadeCarousel :data="$frontmatter.tymhAppPic" height="720px" autoplay />
 
 #### 1.4.3、数据资产
 
-::: tabs
-
-@tab 数据资产市场
-
-![数据资产市场](https://upyun-oss.mu00.cn/202407151925112.webp)
-
-@tab 开发者管理
-
-![开发者管理](https://upyun-oss.mu00.cn/202407151926862.webp)
-
-@tab 资产授权
-
-![资产授权](https://upyun-oss.mu00.cn/202407151926347.webp)
-
-@tab 资产分类
-
-![资产分类](https://upyun-oss.mu00.cn/202407151926870.webp)
-
-@tab 资产管理
-
-![资产管理](https://upyun-oss.mu00.cn/202407151926438.webp)
-
-@tab 开发者授权
-
-![开发者授权](https://upyun-oss.mu00.cn/202407151927579.webp)
-
-:::
+<FadeCarousel :data="$frontmatter.sjzcPic" height="420px" autoplay />
 
 ### 1.5、安全中台
 
-::: tabs
-
-@tab 服务器管理
-
-![服务器管理](https://upyun-oss.mu00.cn/202408052011664.webp)
-
-@tab 服务器管理-操作
-
-![服务器管理-操作](https://upyun-oss.mu00.cn/202408052011087.webp)
-
-@tab 应用服务管理
-
-![应用服务管理](https://upyun-oss.mu00.cn/202408052012055.webp)
-
-@tab 服务监控列表
-
-![服务监控列表](https://upyun-oss.mu00.cn/202408052012057.webp)
-
-@tab 服务器实时监控
-
-![服务器实时监控](https://upyun-oss.mu00.cn/202408052012312.webp)
-
-@tab 漏洞类型管理
-
-![漏洞类型管理](https://upyun-oss.mu00.cn/202408052013288.webp)
-
-@tab 漏洞管理
-
-![漏洞管理](https://upyun-oss.mu00.cn/202408052013869.webp)
-
-@tab 数据库备份
-
-![数据库备份](https://upyun-oss.mu00.cn/202408052014476.webp)
-
-@tab 数据库表结构
-
-![数据库表结构](https://upyun-oss.mu00.cn/202408052014596.webp)
-
-@tab 热点及慢 SQL
-
-![热点及慢SQL](https://upyun-oss.mu00.cn/202408052015839.webp)
-
-@tab 日志管理
-
-![日志管理](https://upyun-oss.mu00.cn/202408052015069.webp)
-
-@tab 实时日志
-
-![实时日志](https://upyun-oss.mu00.cn/202408052015862.webp)
-
-@tab 日志文件下载
-
-![日志文件下载](https://upyun-oss.mu00.cn/202408052015647.webp)
-
-:::
+<FadeCarousel :data="$frontmatter.aqztPic" height="420px" autoplay />
 
 ## 2、新信澜科技
 

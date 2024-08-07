@@ -3,11 +3,13 @@ import { onMounted } from "vue";
 import "vuepress-theme-hope/presets/bounce-icon.scss";
 import packageJson from "../../package.json";
 import BookItem from "./components/BookItem.vue";
+import FadeCarousel from "./components/FadeCarousel.vue";
 import { setupSnowFall } from "vuepress-theme-hope/presets/snowFall.js";
 
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
     app.component("BookItem", BookItem);
+    app.component("FadeCarousel", FadeCarousel);
   },
   setup: () => {
     setupSnowFall({
