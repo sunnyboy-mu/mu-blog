@@ -27,6 +27,13 @@ link: https://nav.linux.do/
 ```
 
 ```component VPCard
+title: LINUX DO WIKI
+desc: Linux DO WIKI，感谢始皇的付出
+logo: https://upyun-oss.mu00.cn/202407051640394.png
+link: https://wiki.linux.do/
+```
+
+```component VPCard
 title: 吾爱破解
 desc: LCG - LSG；安卓破解；病毒分析
 logo: https://www.52pojie.cn/favicon.ico
@@ -68,6 +75,13 @@ title: PIX FIX
 desc: 清理被噪声和过度 JPEG 压缩损坏的图像
 logo: https://zh.pixfix.com/cf/pf/images/pix-fix-logo_5c1a1fb511a02582851d6978a26e4173.svg
 link: https://zh.pixfix.com/
+```
+
+```component VPCard
+title: 爬虫工具库
+desc: 一键算法加解密对比分析
+logo: https://spidertools.cn/img/feapder.5d54c199.png
+link: https://spidertools.cn/
 ```
 
 ## 3、应用清单
@@ -112,6 +126,13 @@ title: Free Download Manager
 desc: 强大又现代的下载加速器
 logo: https://www.freedownloadmanager.org/favicon.ico
 link: https://www.freedownloadmanager.org/zh/
+```
+
+```component VPCard
+title: Reqable
+desc: 新一代API调试 + API测试一站化解决方案(抓包)
+logo: https://reqable.com/zh-CN/img/logo.svg
+link: https://reqable.com/zh-CN/
 ```
 
 ## 4、系统维护

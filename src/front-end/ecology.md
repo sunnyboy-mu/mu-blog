@@ -6,141 +6,89 @@ category:
   - 生态
 ---
 
-# 生态
+# 前端生态圈
 
-::: tip MDN Web Docs
-[自 2005 年以来记录 Web 技术，包括 CSS、HTML 和 JavaScript](https://developer.mozilla.org/zh-CN/)
-:::
+```component VPBanner
+title: MDN Web Docs
+content: 自2005年以来，记录web技术，包括CSS、HTML和JavaScript
+logo: https://developer.mozilla.org/apple-touch-icon.6803c6f0.png
+actions:
+  - text: 立即前往
+    link: https://developer.mozilla.org/zh-CN/
+```
 
-## 1、框架
+## 1、Chart 可视化
 
-::: tip Vue
-[渐进式 JavaScript 框架](https://cn.vuejs.org/)
-:::
+```component VPCard
+title: Makeapie
+desc: echarts 社区图表可视化案例
+logo: https://www.makeapie.cn/favicon.ico
+link: https://www.makeapie.cn/echarts
+```
 
-::: tip React
-[用于构建 Web 和原生交互界面的库](https://react.docschina.org/)
-:::
+```component VPCard
+title: Echarts Dome
+desc: Echarts gallery 社区,Make A Pie,分享你的可视化作品
+logo: https://www.isqqw.com/favicon.ico
+link: https://www.isqqw.com/
+```
 
-::: tip 微信开发文档
-[微信开发文档](https://developers.weixin.qq.com/doc/)
-:::
+```component VPCard
+title: PPChart
+desc: PPChart - 让图表更简单
+logo: https://www.ppchart.com/favicon.ico
+link: https://www.ppchart.com/
+```
 
-::: tip uni-app
-[uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到 iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/飞书/QQ/快手/钉钉/淘宝）、快应用等多个平台](https://uniapp.dcloud.net.cn/)
-:::
+## 2、Tools 插件
 
-::: tip Electron
-[使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序](https://www.electronjs.org/zh/)
-:::
+```component VPCard
+title: Windi CSS
+desc: 下一代工具优先的 CSS 框架；可以把 Windi CSS 看作是按需供应的 Tailwind 替代方案
+logo: https://cn.windicss.org/assets/logo.svg
+link: https://cn.windicss.org/
+```
 
-::: tip HarmonyOS
-[HarmonyOS 应用开发官网 - 华为 HarmonyOS 打造全场景新服务](https://developer.harmonyos.com/)
-:::
+```component VPCard
+title: VueUse
+desc: Vue 组合式工具集
+logo: https://vueuse.nodejs.cn/favicon.svg
+link: https://vueuse.nodejs.cn/
+```
 
-::: tip Taro
-[一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发](https://taro-docs.jd.com/docs/)
-:::
+## 3、Icon 图标
 
-## 2、插件
+```component VPCard
+title: IconFont
+desc: 阿里巴巴矢量图标库
+logo: https://img.alicdn.com/imgextra/i4/O1CN01XZe8pH1USpiUNT1QN_!!6000000002517-2-tps-114-114.png
+link: https://www.iconfont.cn/
+```
 
-::: tip Tailwindcss
-[只需书写 HTML 代码，无需书写 CSS，即可快速构建美观的网站](https://www.tailwindcss.cn/)
-:::
+```component VPCard
+title: IconPark
+desc: 一个通过技术驱动矢量图标样式的开源图标库
+logo: https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg
+link: https://iconpark.oceanengine.com/
+```
 
-::: tip weapp-tailwindcss
-[降低开发维护成本，提升开发效率的小程序 使用 tailwindcss 全方面解决方案](https://weapp-tw.icebreaker.top/)
-:::
+```component VPCard
+title: Font Awesome
+desc: 一款专业的互联网图标库和工具套件，受到数百万设计师、开发者和内容创作者的青睐，并广泛使用
+logo: https://fa6.dashgame.com/assets/img/icon.svg
+link: https://fa6.dashgame.com/
+```
 
-::: tip Axios
-[axios 一个基于 promise 的 HTTP 库](http://www.axios-js.com/zh-cn/docs/index.html)
-:::
+```component VPCard
+title: Shields.io
+desc: 简洁、一致、清晰的徽章
+logo: https://shields.io/img/logo.png
+link: https://shields.io/
+```
 
-::: tip TypeScript
-[TypeScript 是 JavaScript 类型的超集](https://www.tslang.cn/index.html)
-:::
-
-::: tip Webpack
-
-[一个用于现代 JavaScript 应用程序的 静态模块打包工具](https://webpack.docschina.org/)
-:::
-
-::: tip Vite
-[新型前端构建工具，能够显著提升前端开发体验](https://cn.vitejs.dev/)
-:::
-
-::: tip VueUse
-[基于 Vue 组合式 API 的实用工具集](https://www.vueusejs.com/)
-:::
-
-::: tip VueHooksPlus
-[基础和高级的 hook， 高性能逻辑的抽象封装，满足大量场景](https://inhiblab-core.gitee.io/docs/hooks/)
-:::
-
-## 3、图标库
-
-::: tip Iconfont
-[阿里巴巴矢量图标库](https://www.iconfont.cn/)
-:::
-
-::: tip Iconpark
-[丰富多彩的资源库免费使用](https://iconpark.oceanengine.com/home)
-:::
-
-::: tip Font Awesome
-[将数以万计、多彩多样的图标用在你的网页中](https://fa6.dashgame.com/)
-:::
-
-::: tip shields
-[简洁、一致、易读的徽章](https://shields.io/)
-:::
-
-::: tip Simple Icons
-[Simple Icons](https://simpleicons.org/)
-:::
-
-## 4、CDN
-
-::: tip Staticfile CDN
-[我们的目标是提供这样一个仓库，让它尽可能全面收录优秀的开源库，并免费为之提供 CDN 加速服务，使之有更好的访问速度和稳定的环境](https://staticfile.org/)
-:::
-
-::: tip Cdnjs
-[一个免费的开源 CDN 服务](https://cdnjs.com/)
-:::
-
-::: tip Bootcdn
-[稳定、快速、免费的前端开源项目 CDN 加速服务](https://www.bootcdn.cn/)
-:::
-
-::: tip jsdelivr
-[用于开源项目的免费 CDN](https://www.jsdelivr.com/)
-:::
-
-## 5、静态文档
-
-::: tip VuePress
-[Vue 驱动的静态网站生成器](https://vuepress.vuejs.org/zh/)
-:::
-
-::: tip VuePress Theme Hope
-[一个具有强大功能的 vuepress 主题 ✨](https://theme-hope.vuejs.press/zh/)
-:::
-
-::: tip VitePress
-[由 Vite 和 Vue 驱动的静态站点生成器](https://vitepress.dev/zh/)
-:::
-
-::: tip Vuetom
-[因 vitepress 而诞生的一款主题，含有 文档 与 博客 两种风格模板](https://lauset.github.io/vitepress-theme-vuetom/)
-:::
-
-## 6、API 接口
-
-::: tip Hitokoto
-[一言网隶属于萌创团队，目前网站主要提供一句话服务](https://hitokoto.cn/)
-:::
-
-::: tip Cravatar
-[互联网公共头像服务](https://cravatar.cn/)
-:::
+```component VPCard
+title: Simple Icons
+desc: 3159 Free SVG icons for popular brands
+logo: https://simpleicons.org/images/logo.svg
+link: https://simpleicons.org/
+```

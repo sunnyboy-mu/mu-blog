@@ -68,19 +68,9 @@ export default sidebar({
       link: "plugins",
     },
     {
-      text: "数据可视化",
-      icon: "icon-shujukeshihua",
-      link: "dlv",
-    },
-    {
       text: "生态",
       icon: "icon-shengtaigongxiang",
       link: "ecology",
-    },
-    {
-      text: "项目模板",
-      icon: "icon-moban",
-      link: "pro-template",
     },
   ],
   "/back-end/": [
