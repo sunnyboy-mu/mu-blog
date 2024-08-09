@@ -28,7 +28,7 @@ link: https://nav.linux.do/
 
 ```component VPCard
 title: LINUX DO WIKI
-desc: Linux DO WIKI，感谢始皇的付出
+desc: 旨在为社区用户整合有关 LINUX DO 的相关服务说明和工具使用指南，以帮助您更好地了解 LINUX DO 及我们的社区文化
 logo: https://upyun-oss.mu00.cn/202407051640394.png
 link: https://wiki.linux.do/
 ```
