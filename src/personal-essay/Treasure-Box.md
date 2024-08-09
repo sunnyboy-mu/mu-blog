@@ -128,13 +128,6 @@ logo: https://www.freedownloadmanager.org/favicon.ico
 link: https://www.freedownloadmanager.org/zh/
 ```
 
-```component VPCard
-title: Reqable
-desc: 新一代API调试 + API测试一站化解决方案(抓包)
-logo: https://reqable.com/zh-CN/img/logo.svg
-link: https://reqable.com/zh-CN/
-```
-
 ## 4、系统维护
 
 ```component VPCard
@@ -298,10 +291,10 @@ link: https://1panel.cn/
 ```
 
 ```component VPCard
-title: FinalShell
-desc: 一体化的的服务器,网络管理软件,不仅是 ssh 客户端,还是功能强大的开发,运维工具,充分满足开发,运维需求
-logo: https://www.hostbuf.com/profileimages/VokRaU.jpg
-link: http://www.hostbuf.com
+title: Xterminal
+desc: 不仅是强大的SSH工具，更提供本地控制台，以及更多即将推出的开发相关功能，让您专注于创造卓越的代码
+logo: https://www.terminal.icu/favicon.png
+link: https://www.terminal.icu/
 ```
 
 ```component VPCard
@@ -311,12 +304,20 @@ logo: https://avatars.githubusercontent.com/u/111753685?v=4
 link: https://quickref.me/zh-CN/
 ```
 
-```component VPCard
+````component VPCard
 title: JETBRA.IN
 desc: 检测 JETBRA 存货状态
 logo: https://upyun-oss.mu00.cn/202407051640394.png
 link: https://3.jetbra.in/
-```
+
+```component VPCard
+title: Reqable
+desc: 新一代API调试 + API测试一站化解决方案(抓包)
+logo: https://reqable.com/zh-CN/img/logo.svg
+link: https://reqable.com/zh-CN/
+````
+
+````
 
 ## 8、在线教育
 
@@ -325,7 +326,7 @@ title: 爱知趣
 desc: 一家专注互联教育的公司。专注在线职业教学，倾力打造高品质教学，视频后期剪辑+配字幕，以优质的课程为起点，倾力打造“爱知趣”品牌
 logo: https://www.92zhiqu.com/public/uploads/image/default/20240415/7ee77aa6953806d4fae54ab31c1ae436.png
 link: https://www.92zhiqu.com/
-```
+````
 
 ```component VPCard
 title: 后盾人
