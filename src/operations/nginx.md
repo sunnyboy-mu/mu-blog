@@ -38,12 +38,13 @@ http{
 ```nginx
 http{
     server{
-        location /api {
-            proxy_pass https://www.mu00.cn:5050;  # 将请求转发到此URL
+        location ~ ^/api {
             proxy_set_header Host $host;
             proxy_set_header X-Real-IP $remote_addr;
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
             proxy_set_header X-Forwarded-Proto $scheme;
+            rewrite ^/api/(.*) /$1 break; # 去掉 /api 前缀
+            proxy_pass https://www.mu00.cn:5050;  # 将请求转发到此URL
         }
     }
 }
