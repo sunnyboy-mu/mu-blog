@@ -85,21 +85,6 @@ export default navbar([
         icon: "icon-chuanzhongjianzhan",
         link: "https://web.mu00.cn:1314/",
       },
-      {
-        text: "NextChat",
-        icon: "icon-SVG",
-        link: "https://chat.mu00.cn/",
-      },
-      {
-        text: "ChatGPT Web",
-        icon: "icon-SVG",
-        link: "https://lobe-chat.mu00.cn/",
-      },
-      {
-        text: "Snow Dream",
-        icon: "icon-SVG",
-        link: "https://chat-api.mu00.cn/",
-      },
     ],
   },
 ]);
