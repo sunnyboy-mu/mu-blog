@@ -24,6 +24,11 @@ bookListBy2024:
     author: 文德
     pic: https://upyun-oss.mu00.cn/202408052027105.webp
     desc: 想到就去做，因为那就是最好的开始。
+  - title: 基层女性
+    author: 王慧玲
+    pic: https://upyun-oss.mu00.cn/202408122100686.webp
+    desc: 爱、金钱与精神世界的建立。
+    link: https://book.douban.com/subject/35532047/
 ---
 
 # 沐沐书屋
