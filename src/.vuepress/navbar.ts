@@ -66,25 +66,4 @@ export default navbar([
       },
     ],
   },
-  {
-    text: "友链",
-    icon: "icon-youlian",
-    children: [
-      {
-        text: "Gitee",
-        icon: "icon-gitee1",
-        link: "https://gitee.com/SunnyBoy_mu",
-      },
-      {
-        text: "Github",
-        icon: "icon-github",
-        link: "https://github.com/sunnyboy-mu",
-      },
-      {
-        text: "沐沐建站",
-        icon: "icon-chuanzhongjianzhan",
-        link: "https://web.mu00.cn:1314/",
-      },
-    ],
-  },
 ]);

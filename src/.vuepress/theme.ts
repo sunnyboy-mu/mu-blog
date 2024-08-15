@@ -25,6 +25,11 @@ export default hopeTheme(
     repo: "sunnyboy-mu",
 
     docsDir: "src",
+    navbarLayout: {
+      start: ["Brand"],
+      center: ["Links"],
+      end: ["PanelLink", "GiteeLink", "Repo", "Outlook", "Search"],
+    },
 
     // 导航栏
     navbar,

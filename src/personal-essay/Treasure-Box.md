@@ -304,20 +304,19 @@ logo: https://avatars.githubusercontent.com/u/111753685?v=4
 link: https://quickref.me/zh-CN/
 ```
 
-````component VPCard
+```component VPCard
 title: JETBRA.IN
 desc: 检测 JETBRA 存货状态
 logo: https://upyun-oss.mu00.cn/202407051640394.png
 link: https://3.jetbra.in/
+```
 
 ```component VPCard
 title: Reqable
 desc: 新一代API调试 + API测试一站化解决方案(抓包)
 logo: https://reqable.com/zh-CN/img/logo.svg
 link: https://reqable.com/zh-CN/
-````
-
-````
+```
 
 ## 8、在线教育
 
@@ -326,7 +325,7 @@ title: 爱知趣
 desc: 一家专注互联教育的公司。专注在线职业教学，倾力打造高品质教学，视频后期剪辑+配字幕，以优质的课程为起点，倾力打造“爱知趣”品牌
 logo: https://www.92zhiqu.com/public/uploads/image/default/20240415/7ee77aa6953806d4fae54ab31c1ae436.png
 link: https://www.92zhiqu.com/
-````
+```
 
 ```component VPCard
 title: 后盾人
