@@ -92,10 +92,6 @@ blockquote {
   width: 80%;
   --line-clamp: 2;
 
-  .vp-card-logo {
-    // border-radius: 0;
-  }
-
   .vp-card-desc {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -152,4 +148,41 @@ blockquote {
 }
 .vp-blog-type-button .icon-wrapper {
   box-sizing: content-box;
+}
+
+/**
+* 美化各级标题
+*/
+#main-content {
+  .theme-hope-content {
+    h2 {
+      --prefix-icon: "🍁";
+    }
+    h3 {
+      --prefix-icon: "🍂";
+    }
+    h4 {
+      --prefix-icon: "🌸";
+    }
+    h5 {
+      --prefix-icon: "🍅";
+    }
+    h6 {
+      --prefix-icon: "🍊";
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      .header-anchor {
+        & > span {
+          &::before {
+            content: var(--prefix-icon);
+          }
+        }
+      }
+    }
+  }
 }
