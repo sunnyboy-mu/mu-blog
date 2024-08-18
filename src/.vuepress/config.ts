@@ -12,6 +12,10 @@ import { gradientCoverPlugin } from "./plugins/vuepress-plugin-gradient-cover";
 export default defineUserConfig({
   base: "/",
 
+  head: [
+    ["meta", { name: "baidu-site-verification", content: "codeva-CssToEPqDb" }],
+  ],
+
   lang: "zh-CN",
   title: "小沐沐吖",
   description: "纵有狂风平地起, 我亦乘风破万里",
