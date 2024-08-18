@@ -18,6 +18,8 @@ export default hopeTheme(
     iconPrefix: "iconfont ",
     iconAssets: "//at.alicdn.com/t/c/font_4571358_va7bc8p6bun.css",
 
+    favicon: "/favicon.ico",
+
     logo: "/logo.png",
 
     editLink: false,
