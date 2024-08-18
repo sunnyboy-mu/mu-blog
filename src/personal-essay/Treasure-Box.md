@@ -219,7 +219,7 @@ link: https://www.ghxi.com/
 ```component VPCard
 title: 篡改猴 (Tampermonkey)
 desc: 允许用户自定义并增强您最喜爱的网页的功能
-logo: https://www.tampermonkey.net/images/ape.svg
+logo: https://www.tampermonkey.net/images/icon48.png
 link: https://www.tampermonkey.net/
 ```
 
@@ -272,8 +272,8 @@ link: https://jianlixiazai.cn/
 ```component VPCard
 title: 小皮面板
 desc: 好用安全稳定的服务器面板
-logo: https://beta.xp.cn/favicon.ico
-link: https://beta.xp.cn/
+logo: https://xp.cn/favicon.ico
+link: https://xp.cn/
 ```
 
 ```component VPCard

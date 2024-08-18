@@ -6,6 +6,25 @@ export default navbar([
     link: "/",
     icon: "icon-shouye",
   },
+  // {
+  //   text: "开发",
+  //   icon: "icon-kaifa",
+  //   activeMatch: "/front-end/",
+  //   children: [
+  //     {
+  //       text: "Web前端",
+  //       link: "/front-end/css",
+  //       icon: "icon-qianduan",
+  //       activeMatch: "/front-end/",
+  //     },
+  //     {
+  //       text: "Java后端",
+  //       link: "/back-end/java/BigDecimal",
+  //       activeMatch: "/back-end/",
+  //       icon: "icon-houduankaifa",
+  //     },
+  //   ],
+  // },
   {
     text: "前端",
     link: "/front-end/css",
