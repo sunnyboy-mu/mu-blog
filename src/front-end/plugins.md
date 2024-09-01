@@ -14,10 +14,6 @@ category:
 [开源 Web 富文本编辑器，开箱即用，配置简单](https://www.wangeditor.com/)
 :::
 
-::: tip VueTreeselect
-[一个多选组件，具有对 Vue.js 嵌套选项支持](https://www.javasoho.com/vuetreeselect/index_cn.html)
-:::
-
 ::: tip vue-seamless-scroll
 [一个简单的基于 vue.js 的无缝滚动，支持原生 JS](https://chenxuan0000.github.io/vue-seamless-scroll/zh/)
 :::
