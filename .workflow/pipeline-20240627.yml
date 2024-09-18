@@ -47,21 +47,21 @@ stages:
         name: deploy_agent
         displayName: 部署
         hostGroupID:
-          ID: 小沐沐吖
+          ID: ali
           hostID:
-            - a6cd50d9-a71a-4db0-befd-c2faf4d02d37
+            - 94239673-81f8-445e-b93c-6e02c59035c3
         deployArtifact:
           - source: build
             name: dist
-            target: /opt/1panel/apps/openresty/Nginx/www/sites/blog.mu00.cn
+            target: /opt/1panel/apps/openresty/openresty/www/sites/blog.mu00.cn
             dependArtifact: BUILD_ARTIFACT
         script:
-          - cd /opt/1panel/apps/openresty/Nginx/www/sites/blog.mu00.cn
+          - cd /opt/1panel/apps/openresty/openresty/www/sites/blog.mu00.cn
           - tar -xzvf dist.tar.gz
           - rm -rf dist.tar.gz
           - rm -rf index
           - mv -f dist index
-          - sudo chmod 0755 /opt/1panel/apps/openresty/Nginx/www/sites/blog.mu00.cn/index
+          - sudo chmod 0755 /opt/1panel/apps/openresty/openresty/www/sites/blog.mu00.cn/index
           - echo '部署完成'
         notify: []
         strategy:
