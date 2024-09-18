@@ -1,9 +1,9 @@
 ---
 icon: icon-uniapp1
 tag:
-  - Uni-app
+  - uni-app
 category:
-  - Uni-app
+  - uni-app
 ---
 
 # Uni-app
