@@ -264,7 +264,7 @@ AST：抽象语法树
 
 ### 2. 具体实现
 
-> 具体代码，请移步[defer 优化白屏](/front-end/vue3-hooks.html#_2、-defer优化白屏)
+> 具体代码，请移步[defer 优化白屏](/front-end/vue3-hooks.html#_1、-defer优化白屏)
 
 ### 3. 食用文档
 

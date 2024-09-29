@@ -48,11 +48,6 @@ export default sidebar({
       link: "element-ui",
     },
     {
-      text: "Element-Plus",
-      icon: "icon-element-plus",
-      link: "element-plus",
-    },
-    {
       text: "Node",
       icon: "icon-Nodejs1",
       link: "node",

@@ -1,4 +1,4 @@
-import { type PluginsOptions } from "vuepress-theme-hope";
+import { PluginsOptions } from "vuepress-theme-hope";
 
 export default {
   blog: {
@@ -16,9 +16,7 @@ export default {
     components: ["Badge", "VPCard", "SiteInfo", "VPBanner"],
   },
 
-  searchPro: {
-    indexContent: true,
-  },
+  // docsearch: {},
 
   shiki: {
     // 你想要使用的主题
@@ -26,7 +24,6 @@ export default {
     theme: "one-dark-pro",
   },
 
-  // 此处开启了很多功能用于演示，你应仅保留用到的功能。
   mdEnhance: {
     align: true,
     attrs: true,
@@ -35,19 +32,5 @@ export default {
     imgSize: true,
     mark: true,
     tabs: true,
-    stylize: [
-      {
-        matcher: "Recommended",
-        replacer: ({ tag }) => {
-          if (tag === "em")
-            return {
-              tag: "Badge",
-              attrs: { type: "tip" },
-              content: "Recommended",
-            };
-        },
-      },
-    ],
-    tasklist: true,
   },
 } as PluginsOptions;

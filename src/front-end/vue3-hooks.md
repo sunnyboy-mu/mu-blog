@@ -12,54 +12,7 @@ category:
 
 - 放置文件夹：`composables`或`hooks`(依据个人习惯)
 
-## 1、 网页实时 FPS
-
-```js
-/**
- * @file use-fps.js
- * @description 网页实时 FPS
- */
-import { ref } from "vue";
-
-/**
- * 网页实时FPS
- * @param {Object} options
- * @param {Number} options.every 间隔多少帧更新一次，默认 10
- * @return {{fps: Number}}
- */
-export function useFps(options = { every: 10 }) {
-  const fps = ref(0);
-
-  const every = options?.every || 10;
-
-  let lastTime = performance.now();
-
-  let ticks = 0;
-
-  function _updateFps() {
-    ticks++;
-
-    const nowTime = performance.now();
-
-    if (ticks >= every) {
-      const diff = nowTime - lastTime;
-      fps.value = Math.round(1000 / diff);
-      ticks = 0;
-    }
-
-    lastTime = nowTime;
-    requestAnimationFrame(_updateFps);
-  }
-
-  requestAnimationFrame(_updateFps);
-
-  return {
-    fps,
-  };
-}
-```
-
-## 2、 defer 优化白屏
+## 1、 defer 优化白屏
 
 ```js
 import { onUnmounted, ref } from "vue";
