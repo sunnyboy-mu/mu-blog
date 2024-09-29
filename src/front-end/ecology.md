@@ -11,7 +11,7 @@ category:
 ```component VPBanner
 title: MDN Web Docs
 content: 自2005年以来，记录web技术，包括CSS、HTML和JavaScript
-logo: https://developer.mozilla.org/apple-touch-icon.6803c6f0.png
+logo: https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png
 actions:
   - text: 立即前往
     link: https://developer.mozilla.org/zh-CN/

@@ -8,9 +8,9 @@ category:
 
 # CSS 小知识
 
-## 1、常用样式
+## 1、排版
 
-### 1.1 文本溢出处理
+### 1.1 文本溢出
 
 1. 单行文本省略
 
@@ -35,6 +35,26 @@ category:
   /* 垂直排列 */
 }
 ```
+
+3. FlexBox 中单行文本省略（Tailwind CSS 为例）
+
+![FlexBox 中单行文本省略](https://upyun-oss.mu00.cn/202409281058300.png)
+
+```html
+<div class="flex justify-between items-center">
+    <div class="min-w-0 flex-1 flex">
+        <p class="truncate">
+            <span> [我是标题] </span>
+            <span>我是超长的标题</span>
+        </p>
+    </div>
+    <p class="ml-5 flex-shrink-0">2024-12-12</p>
+</div>
+```
+
+注：`min-w-0`不可缺少
+
+
 
 ### 1.2 滤镜 の 全站灰白
 
