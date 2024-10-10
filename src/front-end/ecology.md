@@ -20,6 +20,20 @@ actions:
 ## 1、Chart 可视化
 
 ```component VPCard
+title: Vue Data UI
+desc: 一个赋予用户权力的数据可视化 Vue3 组件库，用于巧妙地叙述数据故事
+logo: https://vue-data-ui.graphieros.com/favicon.ico
+link: https://vue-data-ui.graphieros.com/
+```
+
+```component VPCard
+title: Vue-ECharts
+desc: 用于 Apache ECharts™ 的 Vue.js 组件
+logo: https://vue-echarts.dev/favicon.ico
+link: https://vue-echarts.dev/
+```
+
+```component VPCard
 title: Makeapie
 desc: echarts 社区图表可视化案例
 logo: https://www.makeapie.cn/favicon.ico
@@ -77,18 +91,4 @@ title: Font Awesome
 desc: 一款专业的互联网图标库和工具套件，受到数百万设计师、开发者和内容创作者的青睐，并广泛使用
 logo: https://fa6.dashgame.com/assets/img/icon.svg
 link: https://fa6.dashgame.com/
-```
-
-```component VPCard
-title: Shields.io
-desc: 简洁、一致、清晰的徽章
-logo: https://shields.io/img/logo.png
-link: https://shields.io/
-```
-
-```component VPCard
-title: Simple Icons
-desc: 3159 Free SVG icons for popular brands
-logo: https://simpleicons.org/images/logo.svg
-link: https://simpleicons.org/
 ```
