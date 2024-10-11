@@ -53,11 +53,6 @@ export default sidebar({
       link: "node",
     },
     {
-      text: "UI组件库",
-      icon: "icon-ui",
-      link: "ui-com-lib",
-    },
-    {
       text: "插件",
       icon: "icon-chajiancanshushuju",
       link: "plugins",
