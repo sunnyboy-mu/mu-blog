@@ -53,11 +53,6 @@ export default sidebar({
       link: "node",
     },
     {
-      text: "插件",
-      icon: "icon-chajiancanshushuju",
-      link: "plugins",
-    },
-    {
       text: "生态",
       icon: "icon-shengtaigongxiang",
       link: "ecology",
