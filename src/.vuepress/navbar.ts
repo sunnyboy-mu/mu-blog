@@ -49,22 +49,4 @@ export default navbar([
     activeMatch: "/ide/",
     icon: "icon-bianjiqi",
   },
-  {
-    text: "随笔",
-    activeMatch: "/personal-essay/",
-    icon: "icon-boke",
-    prefix: "/personal-essay/",
-    children: [
-      {
-        text: "沐沐书屋",
-        icon: "icon-keCheng",
-        link: "Book-List",
-      },
-      {
-        text: "百宝箱",
-        link: "Treasure-Box",
-        icon: "icon-yingyong",
-      },
-    ],
-  },
 ]);

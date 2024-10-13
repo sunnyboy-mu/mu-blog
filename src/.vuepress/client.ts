@@ -2,16 +2,12 @@ import { defineClientConfig } from "vuepress/client";
 import { onMounted } from "vue";
 import "vuepress-theme-hope/presets/bounce-icon.scss";
 import packageJson from "../../package.json";
-import BookItem from "./components/BookItem.vue";
-import FadeCarousel from "./components/FadeCarousel.vue";
 import { setupSnowFall } from "vuepress-theme-hope/presets/snowFall.js";
 import GiteeLink from "./components/navbar/GiteeLink.vue";
 import PanelLink from "./components/navbar/PanelLink.vue";
 
 export default defineClientConfig({
   enhance({ app, router, siteData }) {
-    app.component("BookItem", BookItem);
-    app.component("FadeCarousel", FadeCarousel);
     app.component("GiteeLink", GiteeLink);
     app.component("PanelLink", PanelLink);
   },

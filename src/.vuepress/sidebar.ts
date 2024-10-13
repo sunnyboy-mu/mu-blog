@@ -102,16 +102,4 @@ export default sidebar({
       link: "VsCode",
     },
   ],
-  "/personal-essay/": [
-    {
-      text: "沐沐书屋",
-      icon: "icon-keCheng",
-      link: "Book-List",
-    },
-    {
-      text: "百宝箱",
-      link: "Treasure-Box",
-      icon: "icon-yingyong",
-    },
-  ],
 });
