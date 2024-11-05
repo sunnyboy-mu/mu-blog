@@ -49,4 +49,10 @@ export default navbar([
     activeMatch: "/ide/",
     icon: "icon-bianjiqi",
   },
+  {
+    text: "友链",
+    link: "/link/",
+    activeMatch: "/link/",
+    icon: "icon-youlian",
+  },
 ]);

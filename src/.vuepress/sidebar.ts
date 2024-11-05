@@ -102,4 +102,5 @@ export default sidebar({
       link: "VsCode",
     },
   ],
+  "/posts/": "structure",
 });

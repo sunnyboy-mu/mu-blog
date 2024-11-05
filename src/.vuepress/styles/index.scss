@@ -255,3 +255,9 @@ tr:nth-child(odd) {
 .vp-navbar .vp-dropdown-title .arrow {
   vertical-align: sub;
 }
+
+.vp-sidebar-links .vp-sidebar-link {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
