@@ -17,7 +17,238 @@ actions:
     link: https://developer.mozilla.org/zh-CN/
 ```
 
-## 1、Chart 可视化
+## 1、Framework 框架
+
+```component VPCard
+title: Vue.js
+desc: 易学易用，性能出色，适用场景丰富的 Web 前端框架。
+logo: https://cn.vuejs.org/logo.svg
+link: https://cn.vuejs.org/
+```
+
+```component VPCard
+title: React
+desc: 用于构建 Web 和原生交互界面的库
+logo: https://zh-hans.react.dev/apple-touch-icon.png
+link: https://zh-hans.react.dev/
+```
+
+```component VPCard
+title: Electron
+desc: 使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用
+logo: https://electron.nodejs.cn/assets/img/logo.svg
+link: https://electron.nodejs.cn/
+```
+
+```component VPCard
+title: HarmonyOS
+desc: 华为开发者联盟,开发者生态,鸿蒙开发,华为鸿蒙生态
+logo: https://developer.huawei.com/allianceCmsResource/resource/HUAWEI_Developer_VUE/images/favicon.ico
+link: https://developer.huawei.com/consumer/cn/
+```
+
+```component VPCard
+title: qiankun
+desc: 可能是你见过最完善的微前端解决方案🧐
+logo: https://gw.alipayobjects.com/zos/bmw-prod/8a74c1d3-16f3-4719-be63-15e467a68a24/km0cv8vn_w500_h500.png
+link: https://qiankun.umijs.org/zh
+```
+
+## 2、Components 组件库
+
+### 2.1、Vue
+
+```component VPCard
+title: Element Plus
+desc: 基于 Vue 3，面向设计师和开发者的组件库
+logo: https://element-plus.org/apple-touch-icon.png
+link: https://element-plus.org/zh-CN/
+```
+
+```component VPCard
+title: View Design
+desc: 基于 Vue.js 3 的企业级 UI 组件库和中后台系统解决方案，为数万开发者服务。
+logo: https://file.iviewui.com/view-design-logo.png
+link: https://www.iviewui.com/
+```
+
+```component VPCard
+title: Ant Design Vue
+desc: 为 Web 应用提供了丰富的基础 UI 组件，我们还将持续探索企业级应用的最佳 UI 实践。
+logo: https://next.antdv.com/assets/logo.1ef800a8.svg
+link: https://www.antdv.com/components/overview-cn
+```
+
+```component VPCard
+title: layui - vue
+desc: layui - vue (谐音：类 UI) 是 一 套 Vue 3.0 的 桌 面 端 组 件 库.
+logo: https://www.layui-vue.com/assets/logo-png-B_GrttYE.png
+link: https://www.layui-vue.com/zh-CN/index
+```
+
+```component VPCard
+title: Naïve UI
+desc: 一个 Vue 3 组件库，比较完整，主题可调，使用 TypeScript，快有点意思
+logo: https://www.naiveui.com/assets/naivelogo-BdDVTUmz.svg
+link: https://www.naiveui.com/zh-CN/
+```
+
+```component VPCard
+title: Vuetify
+desc: 一个不需要设计技能的开源UI库，它有精美的手工制作的Vue组件。
+logo: https://vuetifyjs.com/favicon.ico
+link: https://vuetifyjs.com/zh-Hans/
+```
+
+### 2.2、React
+
+```component VPCard
+title: Ant Design
+desc: 为 Web 应用提供了丰富的基础 UI 组件，我们还将持续探索企业级应用的最佳 UI 实践
+logo: https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg
+link: https://ant-design.antgroup.com/
+```
+
+### 2.3、Uni App
+
+```component VPCard
+title: uView
+desc: 全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
+logo: https://www.uviewui.com/common/logo.png
+link: https://www.uviewui.com/
+```
+
+```component VPCard
+title: uView-Plus
+desc: 全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
+logo: https://uview-plus.jiangruyi.com/common/logo.png
+link: https://uview-plus.jiangruyi.com/
+```
+
+```component VPCard
+title: TuniaoUI
+desc: 美观易用是TuniaoUI追求的
+logo: https://vue3.tuniaokj.com/images/tuniao-logo.svg
+link: https://vue3.tuniaokj.com/
+```
+
+### 2.4、多端
+
+```component VPCard
+title: Vant
+desc: 轻量、可定制的移动端 Vue 组件库
+logo: https://fastly.jsdelivr.net/npm/@vant/assets/logo.png
+link: https://vant-ui.github.io/vant/#/zh-CN
+```
+
+```component VPCard
+title: Arco.Design
+desc: 字节跳动出品的企业级设计系统
+logo: https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico
+link: https://arco.design/
+```
+
+### 2.5、原生
+
+```component VPCard
+title: Layui
+desc: 原生态 · 开源，极简模块化 Web UI 组件库
+logo: https://layui.dev/favicon.ico
+link: https://layui.dev/
+```
+
+```component VPCard
+title: daisyUI
+desc: Tailwind CSS 最流行的组件库
+logo: https://img.daisyui.com/images/daisyui-logo/favicon-180.png
+link: https://daisyui.com/
+```
+
+## 3、Tools 插件
+
+```component VPCard
+title: Windi CSS
+desc: 下一代工具优先的 CSS 框架；可以把 Windi CSS 看作是按需供应的 Tailwind 替代方案
+logo: https://cn.windicss.org/assets/logo.svg
+link: https://cn.windicss.org/
+```
+
+```component VPCard
+title: TailWind CSS
+desc: 一个工具优先的 CSS 框架
+logo: https://tailwind.nodejs.cn/favicons/apple-touch-icon.png?v=3
+link: https://tailwind.nodejs.cn/
+```
+
+```component VPCard
+title: VueUse
+desc: Vue 组合式工具集
+logo: https://vueuse.nodejs.cn/favicon.svg
+link: https://vueuse.nodejs.cn/
+```
+
+```component VPCard
+title: wangEditor 5
+desc: 开源 Web 富文本编辑器，开箱即用，配置简单
+logo: https://www.wangeditor.com/image/logo.png
+link: https://www.wangeditor.com/
+```
+
+```component VPCard
+title: Day.js
+desc: 使用与 Moment.js 兼容的 API 来解析、验证、操作、以及显示现代浏览器的日期和时间
+logo: https://day.nodejs.cn/img/logo.png
+link: https://day.nodejs.cn/
+```
+
+```component VPCard
+title: md-editor-v3
+desc: Markdown编辑器Vue3版本，使用jsx和typescript语法开发，支持切换主题、prettier美化文本等
+logo: https://imzbf.github.io/favicon.ico
+link: https://imzbf.github.io/md-editor-v3/zh-CN/index
+```
+
+```component VPCard
+title: relation-graph
+desc: 支持Vue2、Vue3、React的关联关系图谱组件
+logo: https://relation-graph.com/favicon.ico
+link: https://relation-graph.com/
+```
+
+---
+
+> [!tip]
+> Vue2 Tools 即将废弃 (Deprecated)
+
+```component VPCard
+title: vue-seamless-scroll
+desc: 一个简单的基于vue.js的无缝滚动
+logo: /logo.png
+link: https://chenxuan0000.github.io/vue-seamless-scroll/zh/
+```
+
+```component VPCard
+title: v-md-editor
+desc: 基于 Vue 开发的 markdown 轻量版编辑器组件
+logo: /logo.png
+link: https://code-farmer-i.github.io/vue-markdown-editor
+```
+
+```component VPCard
+title: Vue CountTo
+desc: 数字滚动动画
+logo: /logo.png
+link: https://panjiachen.github.io/countTo/demo/
+```
+
+```component VPCard
+title:
+desc:
+logo:
+link:
+```
+
+## 4、Chart 可视化
 
 ```component VPCard
 title: Vue Data UI
@@ -54,23 +285,21 @@ logo: https://www.ppchart.com/favicon.ico
 link: https://www.ppchart.com/
 ```
 
-## 2、Tools 插件
-
 ```component VPCard
-title: Windi CSS
-desc: 下一代工具优先的 CSS 框架；可以把 Windi CSS 看作是按需供应的 Tailwind 替代方案
-logo: https://cn.windicss.org/assets/logo.svg
-link: https://cn.windicss.org/
+title: AntV
+desc: 蚂蚁企业级数据可视化解决方案，让人们在数据世界里获得视觉化思考能力
+logo: https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original
+link: https://antv.antgroup.com/zh
 ```
 
 ```component VPCard
-title: VueUse
-desc: Vue 组合式工具集
-logo: https://vueuse.nodejs.cn/favicon.svg
-link: https://vueuse.nodejs.cn/
+title: Chart.js
+desc: 用于现代网络的简单而灵活的 JavaScript 图表库
+logo: https://chartjs.cn/img/chartjs-logo.svg
+link: https://chartjs.cn/
 ```
 
-## 3、Icon 图标
+## 5、Icon 图标
 
 ```component VPCard
 title: IconFont

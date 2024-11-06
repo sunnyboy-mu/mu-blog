@@ -17,11 +17,18 @@ export default {
   },
 
   // docsearch: {},
+  searchPro: {
+    indexContent: true,
+  },
 
   shiki: {
     // 你想要使用的主题
-    lineNumbers: false,
+    lineNumbers: true,
     theme: "one-dark-pro",
+  },
+
+  markdownHint: {
+    alert: true,
   },
 
   mdEnhance: {

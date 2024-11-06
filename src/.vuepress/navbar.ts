@@ -50,6 +50,18 @@ export default navbar([
     icon: "icon-bianjiqi",
   },
   {
+    text: "书签",
+    link: "/bookmark/",
+    activeMatch: "/bookmark/",
+    icon: "icon-shuqian",
+  },
+  {
+    text: "应用",
+    link: "/application/",
+    activeMatch: "/application/",
+    icon: "icon-yingyong",
+  },
+  {
     text: "友链",
     link: "/link/",
     activeMatch: "/link/",
