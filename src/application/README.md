@@ -171,10 +171,3 @@ desc: 提供可靠的原版软件，十四年的专注和积累，初心未改�
 logo: https://next.itellyou.cn/favicon.ico
 link: https://next.itellyou.cn/
 ```
-
-```component VPCard
-title:
-desc:
-logo:
-link:
-```

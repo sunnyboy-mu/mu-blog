@@ -241,13 +241,6 @@ logo: /logo.png
 link: https://panjiachen.github.io/countTo/demo/
 ```
 
-```component VPCard
-title:
-desc:
-logo:
-link:
-```
-
 ## 4、Chart 可视化
 
 ```component VPCard
