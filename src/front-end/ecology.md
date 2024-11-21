@@ -209,6 +209,13 @@ link: https://tailwind.nodejs.cn/
 ```
 
 ```component VPCard
+title: weapp-tailwindcss
+desc: 降低开发维护成本，提升开发效率的小程序 使用 tailwindcss 全方面解决方案
+logo: https://weapp-tw.icebreaker.top/img/logo.png
+link: https://weapp-tw.icebreaker.top/
+```
+
+```component VPCard
 title: VueUse
 desc: Vue 组合式工具集
 logo: https://vueuse.nodejs.cn/favicon.svg
