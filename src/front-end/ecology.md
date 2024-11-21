@@ -109,6 +109,13 @@ logo: https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg
 link: https://ant-design.antgroup.com/
 ```
 
+```component VPCard
+title: shadcn/ui
+desc: 设计精美的组件，你可以复制和粘贴到你的应用程序。易访问、易定制、开源
+logo: https://www.shadcn.com.cn/apple-touch-icon.png
+link: https://www.shadcn.com.cn/
+```
+
 ### 2.3、Uni App
 
 ```component VPCard
@@ -130,6 +137,20 @@ title: TuniaoUI
 desc: 美观易用是TuniaoUI追求的
 logo: https://vue3.tuniaokj.com/images/tuniao-logo.svg
 link: https://vue3.tuniaokj.com/
+```
+
+```component VPCard
+title: Wot Design Uni
+desc: 高颜值、轻量化的uni-app组件库
+logo: https://wot-design-uni.netlify.app/wot-design.png
+link: https://wot-design-uni.netlify.app/
+```
+
+```component VPCard
+title: uv-ui
+desc: uv-ui 破釜沉舟之兼容vue3+2、nvue、app、h5、小程序等多端基于uni-app和uView2.x的生态框架，支持单独导入，开箱即用，利剑出击
+logo: https://www.uvui.cn/common/logo.png
+link: https://www.uvui.cn/
 ```
 
 ### 2.4、多端
@@ -162,6 +183,13 @@ title: daisyUI
 desc: Tailwind CSS 最流行的组件库
 logo: https://img.daisyui.com/images/daisyui-logo/favicon-180.png
 link: https://daisyui.com/
+```
+
+```component VPCard
+title: UIverse
+desc: 最大的开放源码用户界面库
+logo: https://uiverse.io/apple-touch-icon.png
+link: https://uiverse.io/
 ```
 
 ## 3、Tools 插件
