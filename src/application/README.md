@@ -93,6 +93,13 @@ logo: https://reqable.com/zh-CN/img/logo.svg
 link: https://reqable.com/zh-CN/
 ```
 
+```component VPCard
+title: Crusor
+desc: 专为提高您的工作效率而设计，Crusor 是使用人工智能编码的最佳方式
+logo: https://www.cursor.com/assets/videos/logo/placeholder-logo.webp
+link: https://www.cursor.com/
+```
+
 ## 系统维护
 
 ```component VPCard
@@ -170,4 +177,11 @@ title: I TEEL YOU
 desc: 提供可靠的原版软件，十四年的专注和积累，初心未改，打造下一个里程碑。
 logo: https://next.itellyou.cn/favicon.ico
 link: https://next.itellyou.cn/
+```
+
+```component VPCard
+title: HelloWindows
+desc: 精校 完整 极致 Windows系统下载仓储站
+logo: https://hellowindows.cn/logo-s.png
+link: https://hellowindows.cn/
 ```
