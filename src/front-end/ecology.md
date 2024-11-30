@@ -153,6 +153,13 @@ logo: https://www.uvui.cn/common/logo.png
 link: https://www.uvui.cn/
 ```
 
+```component VPCard
+title: TMUI
+desc: 优质Vue3 TS Pinia Vite跨端组件库
+logo: https://tmui.design/images/logoGreat.png
+link: https://tmui.design/
+```
+
 ### 2.4、多端
 
 ```component VPCard
