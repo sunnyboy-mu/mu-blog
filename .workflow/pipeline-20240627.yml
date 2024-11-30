@@ -49,7 +49,7 @@ stages:
         hostGroupID:
           ID: ali
           hostID:
-            - 97afaa46-199e-4697-88b8-c7b363449b50
+            - fa61f2a1-a286-4b6c-bbf5-af3951c97267
         deployArtifact:
           - source: build
             name: dist
