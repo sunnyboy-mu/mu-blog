@@ -54,6 +54,15 @@ export default hopeTheme(
 
     // 插件配置
     plugins: pluginsConfig,
+
+    markdown: {
+      component: true,
+      highlighter: {
+        type: "prismjs",
+        lineNumbers: true,
+        theme: "one-dark",
+      },
+    },
   },
   { custom: true }
 );

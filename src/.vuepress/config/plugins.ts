@@ -16,20 +16,9 @@ export default {
     components: ["Badge", "VPCard", "SiteInfo", "VPBanner"],
   },
 
-  // docsearch: {},
-  searchPro: {
-    indexContent: true,
-  },
+  // slimsearch: true,
 
-  shiki: {
-    // 你想要使用的主题
-    lineNumbers: true,
-    theme: "one-dark-pro",
-  },
-
-  markdownHint: {
-    alert: true,
-  },
+  copyCode: true,
 
   mdEnhance: {
     align: true,
